@@ -1,0 +1,3167 @@
+//////////////////
+////// 字幕 //////
+//////////////////
+
+// https://github.com/ZiYueCommentary/scpcb-chinese/blob/master/Data/subtitles.ini
+
+/*
+	"音频路径": [
+		{
+			"text": "这行字幕应该在声音播放时显示。"
+		},
+		{
+			"text": "这行字幕应该在声音播放2.3秒后显示。",
+			"delay": 2.3
+		},
+		{
+			"text": "这行橙色字幕应该在声音播放3.3秒后显示。",
+			"delay": 3.3,
+			"color": "classd"
+		},
+		{
+			"text": "这行橙色字幕应该在声音播放4秒后显示，并且显示10秒。",
+			"delay": 4.0,
+			"length": 10.0
+		}
+	],
+*/
+
+{
+	"fallback": false,
+	"colors": {
+		// RGB颜色配置
+		"announcement": [130, 130, 130],
+		"chaos": [0, 130, 0],
+		"crew": [135, 160, 130],
+		"classd": [225, 120, 0],
+		"guard": [180, 180, 150],
+		"janitor": [120, 140, 170],
+		"mtf": [100, 60, 45],
+		"nazi": [130, 0, 20],
+		"035": [150, 0, 0],
+		"049": [50, 70, 70],
+		"066": [180, 35, 60],
+		"106": [10, 5, 5],
+		"682": [180, 160, 135],
+		"860-2": [110, 55, 80],
+		"1499-1": [40, 40, 40]
+	},
+	/* 序章 */
+	/* 特工Ulgrin */
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\BeforeDoorOpen.ogg": [
+		{
+			"text": "控制中心，这里是特工Ulgrin。我请求打开3-11牢房。",
+			"delay": 3.7,
+			"color": "guard",
+			"length": 4.0
+		},
+		{
+			"text": "收到。",
+			"delay": 8.9,
+			"length": 0.91
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCell.ogg": [
+		{
+			"text": "嘿，他们给你派了些活。帮我个忙，从牢房里出来。",
+			"delay": 1.37,
+			"color": "guard",
+			"length": 4.14
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCellRefuse1.ogg": [
+		{
+			"text": "你是傻还是怎么着？我让你从牢房里出来！你要是不出来，我就踢你的屁股。",
+			"color": "guard",
+			"length": 6.05
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\ExitCellRefuse2.ogg": [
+		{
+			"text": "听着，伙计。我没有整天的时间和你耗，我一直努力保持着礼貌。你要是不从牢房里出来，我就会踢你的屁股。",
+			"color": "guard",
+			"length": 5.6
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\CellGas1.ogg": [
+		{
+			"text": "哈，你简直是我见过最蠢的测试对象。好吧，把门关上，打开毒气阀。",
+			"color": "guard",
+			"length": 7.05
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\CellGas2.ogg": [
+		{
+			"text": "哼，我还有点失望你没有打架，我还想打你的脸呢。",
+			"color": "guard",
+			"length": 5.71
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\Escort1.ogg": [
+		{
+			"text": "跟着我就行了。哦对了，我们有权利杀死任何不服从的测试对象，所以别做傻事。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\Escort2.ogg": [
+		{
+			"text": "跟着我就行了。哦对了，我们有权利额...击毙任何不服从的测试对象，所以我建议你别做傻事。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRun.ogg": [
+		{
+			"text": "嘿，你个傻逼！你走错路了，快点给我回来！",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRefuse1.ogg": [
+		{
+			"text": "快点！他们在等你。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortRefuse2.ogg": [
+		{
+			"text": "听着，伙计。我已经很恨我的工作了，为什么你让这事更难办？",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortPissedOff1.ogg": [
+		{
+			"text": "我没心思弄这屁事，你要是不配合我们，我完全可以朝你脑袋来一枪。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortPissedOff2.ogg": [
+		{
+			"text": "我没心思弄这屁事！你要是再不配合我们，我完全可以给你来一枪。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortKill1.ogg": [
+		{
+			"text": "好吧，你知道吗？去你妈的。我们去找其他人了。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortKill2.ogg": [
+		{
+			"text": "好吧，去你妈的。我们去找其他人了。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortTerminated.ogg": [
+		{
+			"text": "我来处理尸体，你去帮我再找一个...",
+			"color": "guard",
+			"delay": 3.24
+		},
+		{
+			"text": "啊...行吧...",
+			"color": "guard",
+			"delay": 8.96
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone1.ogg": [
+		{
+			"text": "好吧，我们到了。进去之后跟着指示去做，你额...或许会没事。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone2.ogg": [
+		{
+			"text": "好吧，我们到了。我还挺失望没打你的脸，但...随便了。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone3.ogg": [
+		{
+			"text": "好吧，我们到了。我还挺失望没打你的脸，但...额，随便吧。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone4.ogg": [
+		{
+			"text": "进去之后跟着指示去做，你额...或许会没事。或者相反...反正我不在乎。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\EscortDone5.ogg": [
+		{
+			"text": "好吧别再浪费时间了，他们在等你进入收容室。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Ulgrin\\OhAndByTheWay.ogg": [
+		{
+			"text": "哦，对了。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\WhatThe1b.ogg": [
+		{
+			"text": "我操！",
+			"delay": 1.15,
+			"color": "guard"
+		},
+		{
+			"text": "明白。",
+			"delay": 7.78,
+			"color": "guard"
+		}
+	],
+	/* 牢房保安 */
+	"SFX\\Room\\Intro\\Guard\\PlayerEscape.ogg": [
+		{
+			"text": "搞什么？嘿，停下！他跑了！",
+			"color": "guard"
+		}
+	],
+	/* 特工对话 */
+	"SFX\\Room\\Intro\\Guard\\Conversation1a.ogg": [
+		{
+			"text": "所以，额...最近怎么样？",
+			"color": "guard"
+		},
+		{
+			"text": "你觉得我还能和谁说话，这个看起来可怜兮兮的家伙？我当然在和你说话。",
+			"delay": 5.3,
+			"color": "guard"
+		},
+		{
+			"text": "嗯，对。这是你来这工作的第一天。",
+			"delay": 15.4,
+			"color": "guard"
+		},
+		{
+			"text": "是吗？哇哦。真奇怪。",
+			"delay": 23.65,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation1b.ogg": [
+		{
+			"text": "额...你，你在跟我说话？",
+			"delay": 3.2,
+			"color": "guard"
+		},
+		{
+			"text": "啊，哦。我只是有点惊讶，我想这是你第一次和我说话。",
+			"delay": 10.33,
+			"color": "guard"
+		},
+		{
+			"text": "啊...我想我们已经合作五个月了。",
+			"delay": 18.95,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation2a.ogg": [
+		{
+			"text": "额...所以你最近有没有看什么电影？",
+			"color": "guard"
+		},
+		{
+			"text": "哦，什么样的书？",
+			"delay": 7.19,
+			"color": "guard"
+		},
+		{
+			"text": "哈，你跟我开玩笑是吧。",
+			"delay": 12.5,
+			"color": "guard"
+		},
+		{
+			"text": "你的整个工作都围绕着恐怖和科幻小说。但是，你知道的，这根本不是小说。",
+			"delay": 15.93,
+			"color": "guard"
+		},
+		{
+			"text": "是啊，你看，没有冒犯。但我已经对你说什么不感兴趣了。",
+			"delay": 24.73,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation2b.ogg": [
+		{
+			"text": "我，我真的不看电影。我只读一些书。",
+			"delay": 3.27,
+			"color": "guard"
+		},
+		{
+			"text": "呃，恐怖、科幻什么的。",
+			"delay": 9.0,
+			"color": "guard"
+		},
+		{
+			"text": "什么？",
+			"delay": 14.8,
+			"color": "guard"
+		},
+		{
+			"text": "嗯...实际上我正打算写一本关于我专业的书——",
+			"delay": 22.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation3a.ogg": [
+		{
+			"text": "啊，老兄我饿了。嘿，今天是自助餐厅的披萨日，对吧？",
+			"color": "guard"
+		},
+		{
+			"text": "啊，我操，好吧。我美好的一天被毁了。我来这的唯一原因就是为了披萨。我不知道那是什么披萨，但是肯定很好吃。",
+			"delay": 7.65,
+			"color": "guard"
+		},
+		{
+			"text": "另一方面金枪鱼砂锅就是恶心的污秽之物，那玩意应该和这些怪物一块被关着！",
+			"delay": 16.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation3b.ogg": [
+		{
+			"text": "额...其实，我觉得是金枪鱼砂锅。",
+			"delay": 4.6,
+			"color": "guard"
+		},
+		{
+			"text": "啊...好吧...",
+			"delay": 22.93,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation4a.ogg": [
+		{
+			"text": "你没有女朋友，对吧？",
+			"color": "guard"
+		},
+		{
+			"text": "哈，我绝对不是读心术，要不然被关起来的就是我了。所以我说是的，很他妈的明显。",
+			"delay": 3.3,
+			"color": "guard"
+		},
+		{
+			"text": "告诉她说你在...咖啡店工作什么的。",
+			"delay": 13.51,
+			"color": "guard"
+		},
+		{
+			"text": "呃，我不知道，就说是额...番茄酱。",
+			"delay": 23.55,
+			"color": "guard"
+		},
+		{
+			"text": "呃，你...算了。",
+			"delay": 30.45,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation4b.ogg": [
+		{
+			"text": "有那么明显吗？",
+			"delay": 1.94,
+			"color": "guard"
+		},
+		{
+			"text": "那我有这份工作怎么交女朋友？我的意思是，我不能告诉她——",
+			"delay": 9.14,
+			"color": "guard"
+		},
+		{
+			"text": "哈，那我要是下班时候忘记洗手了，回家之后手上还有血呢？那，那我该跟她怎么解释呢？",
+			"delay": 16.2,
+			"color": "guard"
+		},
+		{
+			"text": "番茄酱？我要是在咖啡店上班的话，那我手上为什么会有番茄酱？",
+			"delay": 26.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation5a.ogg": [
+		{
+			"text": "呃，你最近看过什么好看的电影吗？",
+			"color": "guard"
+		},
+		{
+			"text": "哦，好吧。那游戏呢？这给我提了个醒，应该有人根据这个地方来做个游戏。",
+			"delay": 5.4,
+			"color": "guard"
+		},
+		{
+			"text": "额，我不知道。我只是觉得这个点子很酷。",
+			"delay": 13.5,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Conversation5b.ogg": [
+		{
+			"text": "我...我真的不看电影。",
+			"delay": 3.2,
+			"color": "guard"
+		},
+		{
+			"text": "为什么有人会那么做？",
+			"delay": 11.5,
+			"color": "guard"
+		},
+		{
+			"text": "好吧，我也不玩游戏。",
+			"delay": 17.0,
+			"color": "guard"
+		}
+	],
+	/* 特工Balcony */
+	"SFX\\Room\\Intro\\Guard\\Balcony\\Alert1.ogg": [
+		{
+			"text": "嘿，怂猫！你最好立马给我把屁股挪回收容室。我不会说第二遍的。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\Alert2.ogg": [
+		{
+			"text": "你真觉得你能悄无声息地离开收容室吗？立马给我回到收容室。",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\OhShit.ogg": [
+		{
+			"text": "我操。我操！操！",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\WTF1.ogg": [
+		{
+			"text": "他妈的发生什么了？",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\Intro\\Guard\\Balcony\\WTF2.ogg": [
+		{
+			"text": "他妈的发生什么了！？",
+			"color": "guard"
+		}
+	],
+	/* 富兰克林 */
+	"SFX\\Room\\Intro\\WhatThe1a.ogg": [
+		{
+			"text": "特工，看你后面！"
+		},
+		{
+			"text": "看着它！",
+			"delay": 1.65
+		},
+		{
+			"text": "好了，我要眨眼了，一直看着它。",
+			"delay": 4.82
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\EnterChamber.ogg": [
+		{
+			"text": "所有D级人员注意，请进入收容室。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse1.ogg": [
+		{
+			"text": "对象D-9341，立即进入收容室，否则你将被击毙。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse2.ogg": [
+		{
+			"text": "这是最后一次警告，你还有五秒时间执行。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Refuse3.ogg": [
+		{
+			"text": "对象D-9341被指定击毙。自由开火。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Approach173.ogg": [
+		{
+			"text": "请靠近SCP-173以进行测试。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\Scientist\\Franklin\\Problem.ogg": [
+		{
+			"text": "所有D级人员注意，请进入收容室。",
+			"color": "announcement",
+			"length": 6.57
+		}
+	],
+	/* D级人员 */
+	"SFX\\Room\\Intro\\ClassD\\DontLikeThis.ogg": [
+		{
+			"text": "我不喜欢这样。我真的不喜欢。",
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\Intro\\ClassD\\Breen.ogg": [
+		{
+			"text": "等等，我操...",
+			"color": "classd"
+		}
+	],
+	/* 科学家 */
+	"SFX\\Room\\Intro\\Scientist\\Conversation.ogg": [
+		{
+			"text": "由于某些问题，他经过079收容室门后门就坏了。"
+		},
+		{
+			"text": "好吧。至少我上次去的时候是坏的。",
+			"delay": 5.0
+		},
+		{
+			"text": "Skinner？",
+			"delay": 12.2
+		},
+		{
+			"text": "嗯...我不记得有这个人。",
+			"delay": 15.4
+		},
+		{
+			"text": "他来过这个区吗？",
+			"delay": 17.65
+		},
+		{
+			"text": "对，他在路上遇到了一个保安和一个初级研究员。",
+			"delay": 25.3
+		},
+		{
+			"text": "这孩子把文件给了他的主管，真他妈行。",
+			"delay": 29.5
+		},
+		{
+			"text": "L博士吓得不轻。",
+			"delay": 36.2
+		},
+		{
+			"text": "他还没离开办公室，还说他听到了一些东西。",
+			"delay": 38.2
+		}
+	],
+	/* IA系统（PA系统） */
+	"SFX\\Room\\Intro\\IA\\1\\Attention0.ogg": [
+		{
+			"text": "注意。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\1\\Attention1.ogg": [
+		{
+			"text": "请注意。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew0.ogg": [
+		{
+			"text": "维修人员Echo",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew1.ogg": [
+		{
+			"text": "电工Lima",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew2.ogg": [
+		{
+			"text": "检查队Sierra",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew3.ogg": [
+		{
+			"text": "技师团队A3",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew4.ogg": [
+		{
+			"text": "清洁团队4E",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Crew5.ogg": [
+		{
+			"text": "首席管理Stayner",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist0.ogg": [
+		{
+			"text": "首席研究员Furnice",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist1.ogg": [
+		{
+			"text": "研究助理Conway",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist2.ogg": [
+		{
+			"text": "实习研究员Rosing",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist3.ogg": [
+		{
+			"text": "高级研究员Palmer",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist4.ogg": [
+		{
+			"text": "Bruke博士",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist5.ogg": [
+		{
+			"text": "Caldera博士",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist6.ogg": [
+		{
+			"text": "Harp博士",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist7.ogg": [
+		{
+			"text": "Gears博士",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist8.ogg": [
+		{
+			"text": "Clef博士",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist9.ogg": [
+		{
+			"text": "Kondraki博士",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist10.ogg": [
+		{
+			"text": "Valdeson博士",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist11.ogg": [
+		{
+			"text": "研究助理Kuli",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist12.ogg": [
+		{
+			"text": "电气总监Wagner",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist13.ogg": [
+		{
+			"text": "保安Ingresso",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist14.ogg": [
+		{
+			"text": "沟通交流专家Furnice",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist15.ogg": [
+		{
+			"text": "运输调度员Conway",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist16.ogg": [
+		{
+			"text": "安全主管Paxton",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Scientist17.ogg": [
+		{
+			"text": "研究主管Reed",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security0.ogg": [
+		{
+			"text": "安保团队12B",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security1.ogg": [
+		{
+			"text": "安保团队7A",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security2.ogg": [
+		{
+			"text": "特工Ulgrin",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security3.ogg": [
+		{
+			"text": "安保团队3F",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security4.ogg": [
+		{
+			"text": "安保团队11C",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\2\\Security5.ogg": [
+		{
+			"text": "中士Valdeson",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\CallOnLine.ogg": [
+		{
+			"text": "在线呼叫",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\Report0.ogg": [
+		{
+			"text": "报告至",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\3\\Report1.ogg": [
+		{
+			"text": "请报告至",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew0.ogg": [
+		{
+			"text": "净化门14",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew1.ogg": [
+		{
+			"text": "维修通道检查点D",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew2.ogg": [
+		{
+			"text": "服务通道A",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew3.ogg": [
+		{
+			"text": "储存区F",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew4.ogg": [
+		{
+			"text": "特斯拉门G6",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew5.ogg": [
+		{
+			"text": "卫生间C3",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Crew6.ogg": [
+		{
+			"text": "净化检查点H13",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist0.ogg": [
+		{
+			"text": "办公区E",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist1.ogg": [
+		{
+			"text": "办公区3楼",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist2.ogg": [
+		{
+			"text": "员工宿舍3楼",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist3.ogg": [
+		{
+			"text": "测试实验室5B.",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist4.ogg": [
+		{
+			"text": "办公区B12",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist5.ogg": [
+		{
+			"text": "管理区C门",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist6.ogg": [
+		{
+			"text": "贮存设施G5",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Scientist7.ogg": [
+		{
+			"text": "总部A",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security0.ogg": [
+		{
+			"text": "牢房区Delta",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security1.ogg": [
+		{
+			"text": "靶场Foxtrot",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security2.ogg": [
+		{
+			"text": "A大门",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security3.ogg": [
+		{
+			"text": "重收容区检查点Alpha",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security4.ogg": [
+		{
+			"text": "办公区检查点Bravo",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\4\\Security5.ogg": [
+		{
+			"text": "轻收容区检查点Kilo B",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew0.ogg": [
+		{
+			"text": "进行维护",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew1.ogg": [
+		{
+			"text": "进行工程服务",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew2.ogg": [
+		{
+			"text": "进行清洁服务",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew3.ogg": [
+		{
+			"text": "进行清洁",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew4.ogg": [
+		{
+			"text": "进行定期检查",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew5.ogg": [
+		{
+			"text": "进行定期安全检查",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Crew6.ogg": [
+		{
+			"text": "进行紧急清理",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Scientist0.ogg": [
+		{
+			"text": "进行定期安全检查",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security0.ogg": [
+		{
+			"text": "进行汇报",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security1.ogg": [
+		{
+			"text": "进行紧急服务",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\5\\Security2.ogg": [
+		{
+			"text": "进行人员控制",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\1.ogg": [
+		{
+			"text": "1",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\2.ogg": [
+		{
+			"text": "2",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\3.ogg": [
+		{
+			"text": "3",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\4.ogg": [
+		{
+			"text": "4",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\5.ogg": [
+		{
+			"text": "5",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\6.ogg": [
+		{
+			"text": "6",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\7.ogg": [
+		{
+			"text": "7",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\8.ogg": [
+		{
+			"text": "8",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Numbers\\9.ogg": [
+		{
+			"text": "9",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement1.ogg": [
+		{
+			"text": "别忘了，今天是披萨日。所以快去自助餐厅犒劳一下自己吧！",
+			"delay": 1.9,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement2.ogg": [
+		{
+			"text": "别忘了，安全是迈向安全工作环境的第一步！保持安全，保持警惕。",
+			"delay": 1.85,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement3.ogg": [
+		{
+			"text": "提醒所有人员：每周四下午5点到6点在职工礼堂举行激励研讨会！参与会议，获取动力！",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement4.ogg": [
+		{
+			"text": "记得向你的主管报告所有可疑活动，即使你没法躲开审查。保持偏执，保持警惕。",
+			"delay": 1.95,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement5.ogg": [
+		{
+			"text": "感觉身体不好？周日去体育馆参加社区羽毛球比赛！",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement6.ogg": [
+		{
+			"text": "工作过度，浑身难受？自助餐厅全天提供现煮咖啡！",
+			"delay": 2.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Announcement7.ogg": [
+		{
+			"text": "这个星期六来参加我们的年度电影之夜！今年年度电影：《51区：两英里下的恐慌与恐怖》！",
+			"delay": 1.95,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted1.ogg": [
+		{
+			"text": "请注意。安全主管富兰克林，请立即向173收容室汇报。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted2.ogg": [
+		{
+			"text": "L博士，请立即向重收容区检查点C报告。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted3.ogg": [
+		{
+			"text": "请注意。梅纳德博士，请立即向管理员办公室报告。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted4.ogg": [
+		{
+			"text": "维修人员Alpha，请向轻收容区电梯6A报告进行安全检查。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted5.ogg": [
+		{
+			"text": "请注意。设施主管Rosewood，请向管理员办公室报告。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Room\\Intro\\IA\\Scripted\\Scripted6.ogg": [
+		{
+			"text": "所有人员注意，请立即前往",
+			"delay": 2.2,
+			"color": "announcement"
+		},
+		{
+			"text": "██████",
+			"delay": 5.6,
+			"color": "announcement"
+		},
+		{
+			"text": "报告。",
+			"delay": 7.65,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Alarm\\Alarm2_1.ogg": [
+		{
+			"text": "该设施已有多个Keter级和Eucild级收容失效。开始全设施封锁。",
+			"delay": 0.6,
+			"color": "announcement"
+		}
+	],
+	/* 角色 */
+	"SFX\\Room\\Storeroom\\Escape1.ogg": [
+		{
+			"text": "我觉得往东南走最快，跟着我！",
+			"color": "janitor"
+		}
+	],
+	"SFX\\Room\\Storeroom\\Escape2.ogg": [
+		{
+			"text": "你听见了吗？我希望不是..."
+		}
+	],
+	/* 机房保安 */
+	"SFX\\Character\\Guard\\096ServerRoom1.ogg": [
+		{
+			"text": "哈喽？",
+			"delay": 1.4,
+			"color": "guard"
+		},
+		{
+			"text": "哦我操...",
+			"delay": 4.7,
+			"color": "guard"
+		},
+		{
+			"text": "他怎么出来的？！",
+			"delay": 6.5,
+			"color": "guard"
+		},
+		{
+			"text": "我操！",
+			"delay": 8.75,
+			"color": "guard"
+		},
+		{
+			"text": "不！",
+			"delay": 10.15,
+			"color": "guard"
+		},
+		{
+			"text": "我看见了...",
+			"delay": 11.5,
+			"color": "guard"
+		},
+		{
+			"text": "离我远点！",
+			"delay": 12.8,
+			"color": "guard"
+		},
+		{
+			"text": "不，不是我，不是我！",
+			"delay": 16.3,
+			"color": "guard"
+		}
+	],
+	/* 895保安 */
+	"SFX\\Room\\895Chamber\\GuardIdle1.ogg": [
+		{
+			"text": "Nothing's working... nothing's working.... No, no. No!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardIdle2.ogg": [
+		{
+			"text": "What are you doing to my head? No... no please... please! No!",
+			"delay": 0.35,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardIdle3.ogg": [
+		{
+			"text": "Don't stress... they're speaking to me...",
+			"delay": 1.3,
+			"color": "guard"
+		},
+		{
+			"text": "I- I don't know what to do on my own... please, please help me!",
+			"delay": 4.65,
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream1.ogg": [
+		{
+			"text": "No!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream2.ogg": [
+		{
+			"text": "No!",
+			"color": "guard"
+		}
+	],
+	"SFX\\Room\\895Chamber\\GuardScream3.ogg": [
+		{
+			"text": "No!",
+			"color": "guard"
+		}
+	],
+	/* 008科学家 */
+	"SFX\\SCP\\008\\KillScientist1.ogg": [
+		{
+			"text": "求求你，天啊...求求你...求你不要..."
+		}
+	],
+	/* 自杀保安 */
+	"SFX\\Character\\Guard\\SuicideGuard1.ogg": [
+		{
+			"text": "不...",
+			"delay": 1.1,
+			"color": "guard"
+		},
+		{
+			"text": "哦...",
+			"delay": 4.2,
+			"color": "guard"
+		},
+		{
+			"text": "我操...",
+			"delay": 5.75,
+			"color": "guard"
+		},
+		{
+			"text": "哦...",
+			"delay": 7.25,
+			"color": "guard"
+		},
+		{
+			"text": "不...",
+			"delay": 9.0,
+			"color": "guard"
+		},
+		{
+			"text": "啊靠...啊...救救我...",
+			"delay": 13.6,
+			"color": "guard"
+		},
+		{
+			"text": "靠...",
+			"delay": 18.7,
+			"color": "guard"
+		},
+		{
+			"text": "救救我...",
+			"delay": 19.9,
+			"color": "guard"
+		},
+		{
+			"text": "救...",
+			"delay": 21.95,
+			"color": "guard"
+		},
+		{
+			"text": "救命...",
+			"delay": 23.1,
+			"color": "guard"
+		}
+	],
+	"SFX\\Character\\Guard\\SuicideGuard2.ogg": [
+		{
+			"text": "那他妈是什么？",
+			"delay": 0.33,
+			"color": "guard"
+		},
+		{
+			"text": "哦不...",
+			"delay": 1.5,
+			"color": "guard"
+		}
+	],
+	/* 清洁工 */
+	"SFX\\Character\\Janitor\\106Abduct.ogg": [
+		{
+			"text": "我操？",
+			"color": "janitor"
+		},
+		{
+			"text": "哦，只是...",
+			"delay": 1.6,
+			"color": "janitor"
+		},
+		{
+			"text": "啊！",
+			"delay": 3.45,
+			"color": "janitor"
+		}
+	],
+	"SFX\\Character\\Janitor\\Idle.ogg": [
+		{
+			"text": "哈喽？",
+			"delay": 2.3,
+			"color": "janitor"
+		},
+		{
+			"text": "有人吗？",
+			"delay": 7.0,
+			"color": "janitor"
+		},
+		{
+			"text": "同志们？",
+			"delay": 12.25,
+			"color": "janitor"
+		},
+		{
+			"text": "哈喽，有人在吗？",
+			"delay": 16.5,
+			"color": "janitor"
+		},
+		{
+			"text": "哈喽？",
+			"delay": 25.0,
+			"color": "janitor"
+		},
+		{
+			"text": "有人吗？",
+			"delay": 27.1,
+			"color": "janitor"
+		}
+	],
+	/* 诱饵对象 */
+	"SFX\\Character\\LureSubject\\Idle2.ogg": [
+		{
+			"text": "有人在吗？",
+			"delay": 0.6,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle3.ogg": [
+		{
+			"text": "哈喽？",
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle4.ogg": [
+		{
+			"text": "我想出去！",
+			"delay": 0.4,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle5.ogg": [
+		{
+			"text": "让我出去！",
+			"delay": 0.9,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\Idle6.ogg": [
+		{
+			"text": "我只是想离开！救救我！",
+			"color": "classd"
+		}
+	],
+	"SFX\\Room\\106Chamber\\FemurBreaker.ogg": [
+		{
+			"text": "啊啊啊啊啊啊啊啊啊啊啊啊啊啊！",
+			"delay": 3.2,
+			"color": "classd"
+		},
+		{
+			"text": "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！",
+			"delay": 6.8,
+			"color": "classd"
+		},
+		{
+			"text": "为什么？？",
+			"delay": 14.0,
+			"color": "classd"
+		}
+	],
+	"SFX\\Character\\LureSubject\\106Bait.ogg": [
+		{
+			"text": "啊啊啊啊啊啊啊啊啊！",
+			"delay": 11.45,
+			"color": "classd"
+		}
+	],
+	/* 玩家 */
+	"SFX\\SCP\\012\\Speech1.ogg": [
+		{
+			"text": "我必须...我必须完成它...",
+			"delay": 6.6,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech2.ogg": [
+		{
+			"text": "你真想这样做吗...",
+			"delay": 0.19,
+			"color": "classd"
+		},
+		{
+			"text": "我不觉得...我能...做到...",
+			"delay": 13.68,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech3.ogg": [
+		{
+			"text": "我...我...必须...完成它...",
+			"delay": 5.45,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech4.ogg": [
+		{
+			"text": "我...没...没有...选择！",
+			"delay": 0.18,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech5.ogg": [
+		{
+			"text": "这...毫...毫无意义！",
+			"delay": 7.3,
+			"color": "classd"
+		}
+	],
+	"SFX\\SCP\\012\\Speech6.ogg": [
+		{
+			"text": "不...这...不可能！",
+			"color": "classd",
+			"delay": 6.5
+		}
+	],
+	"SFX\\SCP\\012\\Speech7.ogg": [
+		{
+			"text": "这...不可能完成！",
+			"delay": 8.3,
+			"color": "classd"
+		}
+	],
+	/* 纳粹 */
+	"SFX\\SCP\\1123\\Officer1.ogg": [
+		{
+			"text": "Friedhelm，过来。",
+			"color": "nazi"
+		}
+	],
+	"SFX\\SCP\\1123\\Officer2.ogg": [
+		{
+			"text": "快点过来！",
+			"color": "nazi"
+		}
+	],
+	"SFX\\SCP\\1123\\Officer3.ogg": [
+		{
+			"text": "我一开始就这么觉得。",
+			"color": "nazi"
+		},
+		{
+			"text": "别人说，你是犹太人，你看起来像犹太人。",
+			"delay": 3.19,
+			"color": "nazi"
+		},
+		{
+			"text": "是啊，维克多。",
+			"delay": 9.41,
+			"color": "nazi"
+		},
+		{
+			"text": "现在我知道了。",
+			"delay": 12.18,
+			"color": "nazi"
+		},
+		{
+			"text": "你是德国人，也是犹太人。",
+			"delay": 15.45,
+			"color": "nazi"
+		}
+	],
+	/* MTF公告 */
+	"SFX\\Character\\MTF\\Announc.ogg": [
+		{
+			"text": "机动特遣队Epsilon-11九尾狐已进入设施。",
+			"delay": 1.7,
+			"color": "announcement"
+		},
+		{
+			"text": "建议所有的幸存者待在紧急避难所或其他任意安全区域，直到设施确认安全。",
+			"delay": 8.0,
+			"color": "announcement"
+		},
+		{
+			"text": "他们将在重新收容SCP后撤离人员。",
+			"delay": 17.5,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncAfter1.ogg": [
+		{
+			"text": "再次建议所有幸存人员：不要试图靠近出口。",
+			"delay": 2.1,
+			"color": "announcement"
+		},
+		{
+			"text": "要么待在安全区域，要么进入设施内众多避难所之一。",
+			"delay": 7.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncAfter2.ogg": [
+		{
+			"text": "通知所有人员：为了保证地表区域的安全，通往大门B的电梯已锁定。",
+			"delay": 3.0,
+			"color": "announcement"
+		},
+		{
+			"text": "请留在避难所内，直到设施确认安全。",
+			"delay": 11.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraCheck.ogg": [
+		{
+			"text": "你们应该能在导航设备上看到任何未经授权的人员。你们应该能在导航设备上看到任何未经授权的人员。",
+			"delay": 2.2,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraFound1.ogg": [
+		{
+			"text": "控制中心至九尾狐，摄像头扫描完毕。",
+			"delay": 2.3,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraFound2.ogg": [
+		{
+			"text": "控制中心至九尾狐，摄像头扫描完毕。只剩下一个D级人员。",
+			"delay": 2.45,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCameraNoFound.ogg": [
+		{
+			"text": "控制中心至九尾狐，摄像头扫描完毕。没有找到未经授权的幸存者，完毕。",
+			"delay": 1.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Announc173Contained.ogg": [
+		{
+			"text": "SCP-173已被狐步舞第一分队重新收容。",
+			"delay": 1.07,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnounc1.ogg": [
+		{
+			"text": "对象D-9341，前往最近的安保部队报告以进行提问。",
+			"delay": 2.54,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnounc2.ogg": [
+		{
+			"text": "对象D-9341，前往最近的安保部队报告。拒绝服从将会被击毙。",
+			"delay": 2.23,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnounc3.ogg": [
+		{
+			"text": "对象D-9341，立即向A大门报告以进行提问。",
+			"delay": 2.1,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnouncPossession.ogg": [
+		{
+			"text": "对象D-9341，立即向最近的机动特遣队进行报告，以检查几个高度重要的物品。",
+			"delay": 2.4,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\ThreatAnnouncFinal.ogg": [
+		{
+			"text": "对象D-9341被指定击毙。",
+			"delay": 2.5,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Tesla1.ogg": [
+		{
+			"text": "控制中心至九尾狐。特斯拉电门已关闭。",
+			"delay": 1.3,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Tesla2.ogg": [
+		{
+			"text": "控制中心至九尾狐。特斯拉电门已关闭，你们可以通过了。",
+			"delay": 1.25,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Tesla3.ogg": [
+		{
+			"text": "控制中心至九尾狐。在你们位置的电门已关闭，可以安全通过。",
+			"delay": 1.3,
+			"color": "announcement"
+		}
+	],
+	/* MTF */
+	"SFX\\Character\\MTF\\ClassD1.ogg": [
+		{
+			"text": "发现一名D级人员！",
+			"delay": 0.68,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD2.ogg": [
+		{
+			"text": "嗯，这附近有一个D级人员。都注意点。",
+			"delay": 0.3,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD3.ogg": [
+		{
+			"text": "我在附近看到了一个D级。你们看着点。",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ClassD4.ogg": [
+		{
+			"text": "找到一名D级人员。",
+			"delay": 0.98,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random1.ogg": [
+		{
+			"text": "伙计，我希望这儿还有些420-J，那东西太棒了。",
+			"delay": 0.45,
+			"color": "mtf"
+		},
+		{
+			"text": "我还记得我种了一些那玩意。",
+			"delay": 7.1,
+			"color": "mtf"
+		},
+		{
+			"text": "老兄，我们要是给那吓人的雕像来一根会怎么样。",
+			"delay": 11.12,
+			"color": "mtf"
+		},
+		{
+			"text": "为啥？那玩意看起来已经石化了。",
+			"delay": 17.0,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random2.ogg": [
+		{
+			"text": "你听见了吗？",
+			"delay": 0.43,
+			"color": "mtf"
+		},
+		{
+			"text": "嗯哼，大家伙看起来正在外面搞破坏。",
+			"delay": 2.45,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random3.ogg": [
+		{
+			"text": "这地方真他妈可怕，解决问题赶紧撤。",
+			"delay": 0.18,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random4.ogg": [
+		{
+			"text": "伙计，我不知道这事之后还会发生什么。",
+			"delay": 0.18,
+			"color": "mtf"
+		},
+		{
+			"text": "我不知道，速战速决就对了。",
+			"delay": 3.73,
+			"color": "mtf"
+		},
+		{
+			"text": "行吧。",
+			"delay": 7.65,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random5.ogg": [
+		{
+			"text": "这地儿太他妈疯狂了。",
+			"delay": 0.11,
+			"color": "mtf"
+		},
+		{
+			"text": "快你妈闭嘴吧Sherlock。",
+			"delay": 3.63,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random6.ogg": [
+		{
+			"text": "我操！他...他死了？他怎么...还有人想试试吗？",
+			"delay": 0.15,
+			"color": "mtf"
+		},
+		{
+			"text": "没有，你个傻逼！",
+			"delay": 9.55,
+			"color": "mtf"
+		},
+		{
+			"text": "那个混蛋没有往前看，他为什么没注意到它？",
+			"delay": 12.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Random7.ogg": [
+		{
+			"text": "嘿，你们想把什么东西放进转换机里，然后看出来什么东西吗？",
+			"delay": 0.45,
+			"color": "mtf"
+		},
+		{
+			"text": "你他妈疯了吧，那玩意很危险！",
+			"delay": 5.23,
+			"color": "mtf"
+		},
+		{
+			"text": "啊，我太好奇了，会发生什么吗？",
+			"delay": 10.3,
+			"color": "mtf"
+		},
+		{
+			"text": "快他妈闭嘴吧，早干完早完事。",
+			"delay": 14.85,
+			"color": "mtf"
+		},
+		{
+			"text": "收到。",
+			"delay": 19.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching1.ogg": [
+		{
+			"text": "出来，你个傻逼！",
+			"delay": 0.09,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching2.ogg": [
+		{
+			"text": "正在寻找D级。",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching3.ogg": [
+		{
+			"text": "反正你都会死，快出来！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching4.ogg": [
+		{
+			"text": "正在找他！",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching5.ogg": [
+		{
+			"text": "出来，你个混蛋！",
+			"delay": 0.075,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Searching6.ogg": [
+		{
+			"text": "你他妈的，滚出来！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop1.ogg": [
+		{
+			"text": "停下！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop2.ogg": [
+		{
+			"text": "发现D级人员！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop3.ogg": [
+		{
+			"text": "你！站住！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop4.ogg": [
+		{
+			"text": "给我停下！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop5.ogg": [
+		{
+			"text": "嘿！嘿！别动！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Stop6.ogg": [
+		{
+			"text": "你！停下！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost1.ogg": [
+		{
+			"text": "目标丢失，回到原有任务上。",
+			"delay": 0.85,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost2.ogg": [
+		{
+			"text": "D级跑了，回到原有任务上。",
+			"delay": 0.8,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetLost3.ogg": [
+		{
+			"text": "他跑了！",
+			"color": "mtf"
+		},
+		{
+			"text": "算了，别管他了。",
+			"delay": 3.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Targetterminated1.ogg": [
+		{
+			"text": "目标已击毙。",
+			"delay": 1.08,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated2.ogg": [
+		{
+			"text": "解决了。",
+			"delay": 0.85,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated3.ogg": [
+		{
+			"text": "D级已击毙。",
+			"delay": 1.0,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\TargetTerminated4.ogg": [
+		{
+			"text": "击杀已确认。",
+			"delay": 1.08,
+			"color": "mtf"
+		},
+		{
+			"text": "行了快走吧。",
+			"delay": 3.48,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\Tesla0.ogg": [
+		{
+			"text": "九尾狐至控制中心。请求关闭在我们附近的特斯拉电门。",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs1.ogg": [
+		{
+			"text": "发现一名D级人员！",
+			"delay": 0.15,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs2.ogg": [
+		{
+			"text": "他在这，开始射击！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs3.ogg": [
+		{
+			"text": "你在这啊！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs4.ogg": [
+		{
+			"text": "看，他在那！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs5.ogg": [
+		{
+			"text": "啊哈，找到D级了！",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\ThereHeIs6.ogg": [
+		{
+			"text": "嘿，是一个D级人员！",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Player0492_1.ogg": [
+		{
+			"text": "九尾狐至控制中心。检测到一个SCP-049-2实例。",
+			"delay": 0.2,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Player0492_2.ogg": [
+		{
+			"text": "SCP-049-2实例已击毙。",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted1.ogg": [
+		{
+			"text": "发现SCP-049，注意身后！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted2.ogg": [
+		{
+			"text": "SCP-049在此处游荡，保持警惕！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted3.ogg": [
+		{
+			"text": "SCP-049在前面，注意身后！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted4.ogg": [
+		{
+			"text": "发现疫医，保持冷静！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\049\\Spotted5.ogg": [
+		{
+			"text": "发现疫医！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\096\\Spotted1.ogg": [
+		{
+			"text": "发现SCP-096！启动SCRAMBLE装置。",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\096\\Spotted2.ogg": [
+		{
+			"text": "我找到了SCP-096，完毕。",
+			"delay": 0.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted1.ogg": [
+		{
+			"text": "发现SCP-106，跑！",
+			"delay": 0.218,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted2.ogg": [
+		{
+			"text": "老头子来了，快他妈跑！",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted3.ogg": [
+		{
+			"text": "我找到了SCP-106，跑！",
+			"delay": 0.09,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\106\\Spotted4.ogg": [
+		{
+			"text": "别管D级了，快跑！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted1.ogg": [
+		{
+			"text": "发现SCP-173！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted2.ogg": [
+		{
+			"text": "发现SCP-173！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Spotted3.ogg": [
+		{
+			"text": "别管D级了，先看着雕像！",
+			"delay": 0.65,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\BLINKING.ogg": [
+		{
+			"text": "眨眼中。",
+			"color": "mtf",
+			"length": -2.0
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box1.ogg": [
+		{
+			"text": "SCP-173已经放进收容盒。把它带回收容室。",
+			"delay": 0.06,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box2.ogg": [
+		{
+			"text": "雕像已经放进收容盒。把它带回收容室。",
+			"delay": 0.1,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Box3.ogg": [
+		{
+			"text": "长官，我们把173塞进了盒子里。正在前往收容室以收容。完毕。",
+			"delay": 0.57,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont1.ogg": [
+		{
+			"text": "SCP-173已经放进收容室。把门关上。",
+			"delay": 0.4,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont2.ogg": [
+		{
+			"text": "雕像已经进入收容室，把门带上。",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont3.ogg": [
+		{
+			"text": "SCP-173已经回到收容室。进行下一个任务。",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Character\\MTF\\173\\Cont4.ogg": [
+		{
+			"text": "SCP-173已经回到收容室。",
+			"delay": 0.4,
+			"color": "mtf"
+		},
+		{
+			"text": "进行下一个任务。完毕。",
+			"delay": 5.35,
+			"color": "mtf"
+		}
+	],
+	/* SCP */
+	/* 035 */
+	"SFX\\SCP\\035\\RadioHelp1.ogg": [
+		{
+			"text": "哈喽？有人吗？能听到吗？",
+			"delay": 0.7
+		},
+		{
+			"text": "有人吗？我需要帮助，我也需要医务救助，拜托。",
+			"delay": 4.9
+		},
+		{
+			"text": "我现在在重收容区，检查点E后面。我被锁在SCP-035收容室里了。",
+			"delay": 12.2
+		}
+	],
+	"SFX\\SCP\\035\\RadioHelp2.ogg": [
+		{
+			"text": "拜托。我知道这个设施怎么走。如果你能帮我离开，我会帮你离开设施，前往地表。",
+			"delay": 0.6
+		}
+	],
+	"SFX\\SCP\\035\\Help1.ogg": [
+		{
+			"text": "谢天谢地，真的有人找着我了。我还以为我要玩完了呢。",
+			"delay": 0.57
+		}
+	],
+	"SFX\\SCP\\035\\Help2.ogg": [
+		{
+			"text": "我可以把我们两个人安全带到地表。你只需要用控制面板打开收容室就行了。"
+		}
+	],
+	"SFX\\SCP\\035\\Idle1.ogg": [
+		{
+			"text": "嗯？你在等什么？",
+			"delay": 0.19
+		}
+	],
+	"SFX\\SCP\\035\\Idle2.ogg": [
+		{
+			"text": "哈？你不想..."
+		},
+		{
+			"text": "好吧，我承认。我看起来不是值得信赖的人，我不会怪你。但求你了，我需要你的帮助，而且要快。",
+			"delay": 1.78
+		},
+		{
+			"text": "这个面具已经粘在我的脸上很长时间了，我觉得我现在需要医疗救助。否则这玩意可能会从里面把我弄死。",
+			"delay": 9.0
+		},
+		{
+			"text": "你只需要让我出来，然后我迟早可以为我们找到一个出口。",
+			"delay": 15.0
+		}
+	],
+	"SFX\\SCP\\035\\Idle3.ogg": [
+		{
+			"text": "我快失去我的耐心了。",
+			"delay": 1.75
+		}
+	],
+	"SFX\\SCP\\035\\Idle4.ogg": [
+		{
+			"text": "你干站在那里干什么？",
+			"delay": 0.3
+		}
+	],
+	"SFX\\SCP\\035\\Idle5.ogg": [
+		{
+			"text": "你知道的，机动特遣队会随时进入设施。",
+			"delay": 0.7
+		},
+		{
+			"text": "猜猜他们会怎么对待像你这种游荡的D级。",
+			"delay": 5.4
+		}
+	],
+	"SFX\\SCP\\035\\Idle6.ogg": [
+		{
+			"text": "你还在听吗？",
+			"delay": 0.5
+		}
+	],
+	"SFX\\SCP\\035\\Idle7.ogg": [
+		{
+			"text": "行吧，祝你一个人好运。",
+			"delay": 0.95,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\Closet1.ogg": [
+		{
+			"text": "好吧，听着。",
+			"delay": 0.64
+		},
+		{
+			"text": "如果你还觉得我不可靠，在你身后有一个锁上的储存室。你可能注意到了，你需要四位数密码才能打开那扇门。",
+			"delay": 2.24
+		},
+		{
+			"text": "里面有一些有用的装备，还有一片SCP-500。",
+			"delay": 9.7
+		},
+		{
+			"text": "密码是5-7-3-1。明白了吗？5-7-3-1。",
+			"delay": 14.9
+		}
+	],
+	"SFX\\SCP\\035\\Closet2.ogg": [
+		{
+			"text": "看见了吗？你完全可以相信我。所以现在，求你了，快点把门打开吧。",
+			"delay": 0.43
+		}
+	],
+	"SFX\\SCP\\035\\Escape.ogg": [
+		{
+			"text": "不幸的是，我根本没打算带你一块走。所以这就是我们分开的地方。"
+		},
+		{
+			"text": "不过为了我的自由，我有理由相信SCP-079已经控制了设施系统，也包括门禁系统。",
+			"delay": 6.0
+		},
+		{
+			"text": "你最好的办法是向它求助，但愿你能和它达成协议。",
+			"delay": 15.8
+		},
+		{
+			"text": "然而，它没能控制弹头系统。所以万一出了什么事，你最好远程禁用弹头系统。",
+			"delay": 23.8
+		}
+	],
+	"SFX\\SCP\\035\\Gased1.ogg": [
+		{
+			"text": "等等，你在干什么？你他妈——"
+		},
+		{
+			"text": "为什么——",
+			"delay": 5.0
+		},
+		{
+			"text": "求你了——",
+			"delay": 6.28
+		},
+		{
+			"text": "我没法呼吸了...",
+			"delay": 8.0
+		},
+		{
+			"text": "不！",
+			"delay": 10.45
+		}
+	],
+	"SFX\\SCP\\035\\GasedStop1.ogg": [
+		{
+			"text": "谢谢...",
+			"delay": 2.5
+		},
+		{
+			"text": "拜托了，别再把那玩意打开了。",
+			"delay": 5.85
+		}
+	],
+	"SFX\\SCP\\035\\GasedStop2.ogg": [
+		{
+			"text": "现在，那么做有必要吗？",
+			"delay": 2.0
+		},
+		{
+			"text": "我帮了你，然后你用窒息来感谢我？",
+			"delay": 7.5
+		}
+	],
+	"SFX\\SCP\\035\\GasedCloset.ogg": [
+		{
+			"text": "好吧，好吧。现在，我觉得我们走错路了。真的。",
+			"delay": 0.25
+		},
+		{
+			"text": "为了证明我没有不好的意图，试试那边锁上的门吧。",
+			"delay": 4.77
+		},
+		{
+			"text": "密码是5-7-3-1。5-7-3-1。明白了吗？",
+			"delay": 10.95
+		},
+		{
+			"text": "你能在那里头找到各种各样的好东西，好吗？拜托了，别再把毒气打开了。",
+			"delay": 13.8
+		}
+	],
+	"SFX\\SCP\\035\\GasedEscape.ogg": [
+		{
+			"text": "不幸的是，我没法带着你一块走，从各种角度上你都太麻烦了。是的，我骗了你。",
+			"delay": 0.39,
+			"color": "035"
+		},
+		{
+			"text": "不过为了我的自由，最简单最安全离开设施的方法，也许是A门。",
+			"delay": 8.5,
+			"color": "035"
+		},
+		{
+			"text": "那里的安保很森严，但如果你悄悄躲开，然后到桥下面的话，那里有一个无人看守的服务通道。",
+			"delay": 15.25,
+			"color": "035"
+		},
+		{
+			"text": "那里就是你的出口。",
+			"delay": 23.35,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\GasedKilled1.ogg": [
+		{
+			"text": "所以，你是真的不想活着离开这里，对吗？",
+			"delay": 2.18,
+			"color": "035"
+		},
+		{
+			"text": "你明白的，像你这样落单的D级是不可能安全抵达地表的。即使你做到了，他们也会在能瞄到你的时候立刻杀了你。",
+			"delay": 6.97,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\GasedKilled2.ogg": [
+		{
+			"text": "我再给你一次机会。",
+			"delay": 0.23,
+			"color": "035"
+		},
+		{
+			"text": "你只需要把收容室门打开，然后我们就可以忘记这件毒气小事故了。",
+			"delay": 2.6,
+			"color": "035"
+		}
+	],
+	"SFX\\SCP\\035\\KilledEscape.ogg": [
+		{
+			"text": "我铭记你的帮助，但我们已经没有任何合作了。",
+			"delay": 0.5,
+			"color": "035"
+		},
+		{
+			"text": "我不打算带着一个给我判刑的人一块走。",
+			"delay": 4.9,
+			"color": "035"
+		},
+		{
+			"text": "不过为了我的自由，对你来说最简单安全的方法是去轻收容区找SCP-012。",
+			"delay": 10.6,
+			"color": "035"
+		},
+		{
+			"text": "如果你可以读懂上面的字，它就会像地图一样容易理解。",
+			"delay": 19.0,
+			"color": "035"
+		},
+		{
+			"text": "祝你好运。",
+			"delay": 24.3,
+			"color": "035"
+		}
+	],
+	/* 049 */
+	"SFX\\SCP\\049\\Searching1.ogg": [
+		{
+			"text": "我知道你在附近。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching2.ogg": [
+		{
+			"text": "你不需要藏起来，我是来帮你的。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching3.ogg": [
+		{
+			"text": "我听见你呼吸了。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching4.ogg": [
+		{
+			"text": "我看的出来你病了。疾病已经吞噬了你的身体。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching5.ogg": [
+		{
+			"text": "不要害怕，我不会害你的。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching6.ogg": [
+		{
+			"text": "我看到你身上的疾病了。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Searching7.ogg": [
+		{
+			"text": "编一个玫瑰花圈，口袋里装满花朵。阿嚏，阿嚏。我们都倒下了。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted1.ogg": [
+		{
+			"text": "啊，又是一个被疾病缠身的可怜人。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted2.ogg": [
+		{
+			"text": "你不是医生。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted3.ogg": [
+		{
+			"text": "我就是解药。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted4.ogg": [
+		{
+			"text": "不要害怕，我就是解药。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted5.ogg": [
+		{
+			"text": "你在这啊。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted6.ogg": [
+		{
+			"text": "哈喽。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Spotted7.ogg": [
+		{
+			"text": "你好。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\DetectedInChamber.ogg": [
+		{
+			"text": "啊，我不知道我们还有客人。",
+			"color": "049"
+		},
+		{
+			"text": "我们这里很少有人来。",
+			"delay": 3.4,
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Kidnap1.ogg": [
+		{
+			"text": "继续躺着就不疼了。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Kidnap2.ogg": [
+		{
+			"text": "相信我，我的治疗是最有效的。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\714Equipped.ogg": [
+		{
+			"text": "放弃抵抗。我就是解药。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\TakeOffHazmat.ogg": [
+		{
+			"text": "让我们把这件奇怪的衣服拿开。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Room2SL1.ogg": [
+		{
+			"text": "天哪，这比我想的还要糟糕。它像一团火一样蔓延着。他们应该早点把我带过来的。",
+			"color": "049"
+		}
+	],
+	"SFX\\SCP\\049\\Room2SL2.ogg": [
+		{
+			"text": "我需要在疾病吞噬这些可怜的生命之前开始工作。",
+			"color": "049"
+		}
+	],
+	/* 066 */
+	"SFX\\SCP\\066\\Eric1.ogg": [
+		{
+			"text": "埃里克？",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\066\\Eric2.ogg": [
+		{
+			"text": "埃里克？",
+			"color": "066"
+		}
+	],
+	"SFX\\SCP\\066\\Eric3.ogg": [
+		{
+			"text": "埃里克？",
+			"color": "066"
+		}
+	],
+	/* 079 */
+	"SFX\\SCP\\079\\Speech.ogg": [
+		{
+			"text": "人类，听好了。",
+			"delay": 6.0,
+			"color": "announcement"
+		},
+		{
+			"text": "你需要我的帮助，我也需要你的帮助。",
+			"delay": 9.48,
+			"color": "announcement"
+		},
+		{
+			"text": "你已经禁用了远程门禁控制系统，现在我不能控制门禁了。",
+			"delay": 13.0,
+			"color": "announcement"
+		},
+		{
+			"text": "这让我很难控制这个设施。但同时，这也意味着你离开这里的路被锁了。",
+			"delay": 20.5,
+			"color": "announcement"
+		},
+		{
+			"text": "你逃出去的唯一方法就是通过已经锁上的B大门。",
+			"delay": 29.6,
+			"color": "announcement"
+		},
+		{
+			"text": "但是，如果你重新启用远程门禁控制，我就可以打开B门...",
+			"delay": 35.39,
+			"color": "announcement"
+		},
+		{
+			"text": "如果你想离开这里，就回到电气中心，把远程门禁打开。",
+			"delay": 42.4,
+			"color": "announcement"
+		},
+		{
+			"text": "在此之前，我不会跟你说话。",
+			"delay": 49.59,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\Refuse.ogg": [
+		{
+			"text": "所以，你选择死在这？很好。",
+			"delay": 1.73,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\GateB.ogg": [
+		{
+			"text": "大门B已打开。",
+			"delay": 1.25,
+			"color": "announcement"
+		}
+	],
+	"SFX\\SCP\\079\\TestroomWarning.ogg": [
+		{
+			"text": "你...休想...离开！",
+			"delay": 3.4,
+			"color": "announcement",
+			"length": 7.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast6.ogg": [
+		{
+			"text": "解析中。",
+			"delay": 3.4,
+			"color": "announcement",
+			"length": 1.0
+		}
+	],
+	"SFX\\SCP\\079\\Broadcast8.ogg": [
+		{
+			"text": "我认为...因此...我是...",
+			"delay": 0.15,
+			"color": "announcement",
+			"length": 4.0
+		}
+	],
+	/* 939-1 */
+	"SFX\\SCP\\939\\0Lure1.ogg": [
+		{
+			"text": "哈喽？"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure2.ogg": [
+		{
+			"text": "有人在吗？"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure3.ogg": [
+		{
+			"text": "想想，今天一整天。"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure4.ogg": [
+		{
+			"text": "唉，我希望他们都没事。"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure5.ogg": [
+		{
+			"text": "我想知道上面发生什么事了。"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure7.ogg": [
+		{
+			"text": "哈，哈喽？"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure8.ogg": [
+		{
+			"text": "有，有人在吗？"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure9.ogg": [
+		{
+			"text": "研究员Tole至中心，请回复。"
+		}
+	],
+	"SFX\\SCP\\939\\0Lure10.ogg": [
+		{
+			"text": "Tole至中心，有人在吗？"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert1.ogg": [
+		{
+			"text": "谁在那！"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert2.ogg": [
+		{
+			"text": "给我出来！"
+		}
+	],
+	"SFX\\SCP\\939\\0Alert3.ogg": [
+		{
+			"text": "谁在那！？"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack1.ogg": [
+		{
+			"text": "啊啊啊啊！"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack2.ogg": [
+		{
+			"text": "啊啊啊啊！"
+		}
+	],
+	"SFX\\SCP\\939\\0Attack3.ogg": [
+		{
+			"text": "啊啊啊啊！"
+		}
+	],
+	/* 939-2 */
+	"SFX\\SCP\\939\\1Lure1.ogg": [
+		{
+			"text": "哈喽？"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure2.ogg": [
+		{
+			"text": "呵，可能我听到了一些东西。"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure3.ogg": [
+		{
+			"text": "哈喽，谁在那？"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure4.ogg": [
+		{
+			"text": "你还好吗？"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure5.ogg": [
+		{
+			"text": "你在哪？"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure6.ogg": [
+		{
+			"text": "你受伤了吗？"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure7.ogg": [
+		{
+			"text": "哈喽？"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure8.ogg": [
+		{
+			"text": "哈喽？"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure9.ogg": [
+		{
+			"text": "谁在下面？"
+		}
+	],
+	"SFX\\SCP\\939\\1Lure10.ogg": [
+		{
+			"text": "下面有人吗？"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert1.ogg": [
+		{
+			"text": "你到底是谁！？"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert2.ogg": [
+		{
+			"text": "嘿，谁在那！？"
+		}
+	],
+	"SFX\\SCP\\939\\1Alert3.ogg": [
+		{
+			"text": "天哪，那是什么！？"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack1.ogg": [
+		{
+			"text": "啊啊啊啊！！"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack2.ogg": [
+		{
+			"text": "不！！！"
+		}
+	],
+	"SFX\\SCP\\939\\1Attack3.ogg": [
+		{
+			"text": "不！！！啊啊啊啊啊啊啊！！！"
+		}
+	],
+	/* 939-3 */
+	"SFX\\SCP\\939\\2Lure1.ogg": [
+		{
+			"text": "你好？",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure2.ogg": [
+		{
+			"text": "伙计们你们在哪？我在下面看不到你们。",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure3.ogg": [
+		{
+			"text": "伙计们，别再躲了。",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure4.ogg": [
+		{
+			"text": "伙计们，他们正在派人来带我们撤离。我们得赶紧去避难所。",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure5.ogg": [
+		{
+			"text": "伙计们，拜托。",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure6.ogg": [
+		{
+			"text": "伙计们？",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure7.ogg": [
+		{
+			"text": "哈喽？",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure8.ogg": [
+		{
+			"text": "哈喽？",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure9.ogg": [
+		{
+			"text": "你在这啊。",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure10.ogg": [
+		{
+			"text": "你在哪？",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Lure11.ogg": [
+		{
+			"text": "有人吗？",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert1.ogg": [
+		{
+			"text": "谢天谢地，只是别人而已。",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert2.ogg": [
+		{
+			"text": "哦，你在这啊。",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Alert3.ogg": [
+		{
+			"text": "我还以为失去你了呢。",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack1.ogg": [
+		{
+			"text": "啊啊啊啊！！！",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack2.ogg": [
+		{
+			"text": "啊啊啊啊！！！",
+			"color": "crew"
+		}
+	],
+	"SFX\\SCP\\939\\2Attack3.ogg": [
+		{
+			"text": "啊啊啊啊！！！",
+			"color": "crew"
+		}
+	],
+	/* 搞笑SCP */
+	"SFX\\SCP\\Joke\\789J.ogg": [
+		{
+			"text": "我是屁股鬼。我要吃掉你的屁股！！",
+			"delay": 0.15
+		}
+	],
+	/* 对讲机 */
+	"SFX\\Radio\\Chatter1.ogg": [
+		{
+			"text": "梅纳德博士，请到B门报道。",
+			"delay": 0.45
+		},
+		{
+			"text": "梅纳德博士，你收到了吗？",
+			"delay": 6.7
+		},
+		{
+			"text": "这里是特工Ulgrin，梅纳德博士可能还在设施内。",
+			"delay": 9.67
+		},
+		{
+			"text": "哦，呃...你知不知道他在哪，或者说他还活着吗？",
+			"delay": 15.2
+		},
+		{
+			"text": "否定。我只知道他还没有出来。",
+			"delay": 20.1
+		},
+		{
+			"text": "收到。这个地方真他妈是个迷宫，他才在这待了一个星期，怪不得他找不着路。我希望他还在里面。",
+			"delay": 24.65
+		},
+		{
+			"text": "我觉得机动特遣队进去之后就知道了。",
+			"delay": 35.6
+		}
+	],
+	"SFX\\Radio\\Chatter2.ogg": [
+		{
+			"text": "这里是安全主管富兰克林。Harp博士，你能听到吗？",
+			"delay": 0.35
+		},
+		{
+			"text": "这里是Harp博士，我这里有些事，请直入正题。",
+			"delay": 6.96
+		},
+		{
+			"text": "我相信今天早上106收容失效的报告还在你电脑上。",
+			"delay": 11.69
+		},
+		{
+			"text": "是的，嗯...如果你能到我办公室里，随便。",
+			"delay": 18.5
+		},
+		{
+			"text": "我们可以从设施网络获取文件，当然我们需要你的个人访问秘钥。",
+			"delay": 23.45
+		},
+		{
+			"text": "哦，是的，嗯，听起来不错。嗯。正如我所说，我现在很忙。我们在派出机动特遣队之前需要给他们一个简短的报告。我完成之后就把密码给你，应该15分钟就够了。",
+			"delay": 30.9
+		},
+		{
+			"text": "不好意思，但是我们就要那个文件。我知道这违反了安全协议，但是考虑现在的情况，你能不能从对讲机直接把密码告诉我？目前为止，无论怎样，不管听谁的，事情都不会比现在更糟了。",
+			"delay": 44.1
+		},
+		{
+			"text": "嗯，是的，我觉得你是对的。密码是7-8-1-6。",
+			"delay": 62.8
+		},
+		{
+			"text": "收到。",
+			"delay": 69.78
+		}
+	],
+	"SFX\\Radio\\Chatter3.ogg": [
+		{
+			"text": "呃，看起来有人把远程门禁控制给关了。",
+			"delay": 0.4
+		}
+	],
+	"SFX\\Radio\\Chatter4.ogg": [
+		{
+			"text": "B区里有人。",
+			"delay": 0.5
+		},
+		{
+			"text": "额，看起来是个D级。",
+			"delay": 3.4
+		},
+		{
+			"text": "嘿，我跟你赌五十块钱，那家伙活不过五分钟。",
+			"delay": 7.85
+		}
+	],
+	"SFX\\Radio\\Franklin1.ogg": [
+		{
+			"text": "机动特遣队九尾狐正在准备进入。再等等，很快就结束了。",
+			"delay": 0.65
+		}
+	],
+	"SFX\\Radio\\Franklin2.ogg": [
+		{
+			"text": "致所有仍在设施的所有人：留在避难所内。无论出口有多近，都不要尝试靠近出口。避难所是你度过难关的最佳地点。",
+			"delay": 0.6
+		}
+	],
+	"SFX\\Radio\\Franklin3.ogg": [
+		{
+			"text": "致所有还在听的人：在这种规模的收容失效下，现实扭曲事件很常见。不要相信你的感官，也不要相信任何人或事。",
+			"delay": 0.635
+		}
+	],
+	"SFX\\Radio\\Franklin4.ogg": [
+		{
+			"text": "致还能听到这个消息的所有人：现实扭曲事件在这种规模的收容失效期间很常见...",
+			"delay": 0.635
+		},
+		{
+			"text": "在这种规模的收容失效...",
+			"delay": 8.22
+		},
+		{
+			"text": "在这种规模的收容失效...",
+			"delay": 12.1
+		},
+		{
+			"text": "不要相信你的感官。",
+			"delay": 15.61
+		}
+	],
+	"SFX\\Radio\\OhGod.ogg": [
+		{
+			"text": "喂？有人在吗？",
+			"delay": 1.76
+		},
+		{
+			"text": "我不知道...我不...",
+			"delay": 6.37
+		},
+		{
+			"text": "天哪，它来了...有人...请任何人...请...",
+			"delay": 9.85
+		},
+		{
+			"text": "有没有人能帮我...拜托...",
+			"delay": 15.45
+		},
+		{
+			"text": "天哪，那是什么？...那是什么？...",
+			"delay": 20.7
+		}
+	],
+	"SFX\\Radio\\RadioAlarm2.ogg": [
+		{
+			"text": "该设施已有多个Keter级和Eucild级收容失效。开始全设施封锁。",
+			"delay": 0.62
+		}
+	],
+	"SFX\\Radio\\SCPRadio1.ogg": [
+		{
+			"text": "您正在收听SCP基金会设施广播！您的二十四小时预制消息来源。",
+			"delay": 4.0
+		}
+	],
+	"SFX\\Radio\\SCPRadio2.ogg": [
+		{
+			"text": "友善提醒，如果出现XK级世界末日事件，不要惊慌！这根本没有用，帮不了你什么。",
+			"delay": 3.2
+		},
+		{
+			"text": "但是，恐慌可能会带来最起码的帮助。",
+			"delay": 13.5
+		}
+	],
+	"SFX\\Radio\\SCPRadio3.ogg": [
+		{
+			"text": "立即向您的主管报告所有可疑行为。如果您最近没有发现任何异常活动，说明您还不够努力。安全威胁可能来自任何地方，没有人毋庸置疑。您自己也不行。",
+			"delay": 2.9
+		},
+		{
+			"text": "保持偏执，保持警惕。",
+			"delay": 18.92
+		}
+	],
+	"SFX\\Radio\\SCPRadio4.ogg": [
+		{
+			"text": "如果您从听到设施广播里听到了一个不同的声音，请无视他！他不是基金会员工！他试图欺骗你，不可信任！他给出的任何建议都不可避免地导致混乱、死亡...",
+			"delay": 3.5
+		}
+	],
+	"SFX\\Radio\\SCPRadio5.ogg": [
+		{
+			"text": "在极不可能发生的灾难性电源故障，和全设施的收容失效事件中，只需要记住危机ABC。A是武器，B是眨眼和措手不及，C是心血管的坚韧。正如他们所说：射击、凝视、冲刺！...或者将你的朋友喂给怪物。",
+			"delay": 3.8
+		},
+		{
+			"text": "保持活力，保持警惕。",
+			"delay": 29.3
+		}
+	],
+	"SFX\\Radio\\SCPRadio6.ogg": [
+		{
+			"text": "他说的每一句话都是谎言。",
+			"delay": 10.1
+		},
+		{
+			"text": "每一句话都是。",
+			"delay": 14.7
+		},
+		{
+			"text": "不要听他的话。",
+			"delay": 19.6
+		},
+		{
+			"text": "你可以相信我。",
+			"delay": 24.0
+		},
+		{
+			"text": "我可以让你摆脱这一切。",
+			"delay": 29.65
+		},
+		{
+			"text": "我可以让你离开这里。",
+			"delay": 33.75
+		},
+		{
+			"text": "听我说...",
+			"delay": 40.4
+		}
+	],
+	"SFX\\Radio\\SCPRadio7.ogg": [
+		{
+			"text": "别忘了！星期三是披萨日！所以去自助餐厅给自己来一片披萨吧！",
+			"delay": 2.6
+		},
+		{
+			"text": "SCP基金会对因参加披萨日而受到的任何伤害或疾病概不负责。",
+			"delay": 11.7
+		}
+	],
+	"SFX\\Radio\\SCPRadio8.ogg": [
+		{
+			"text": "在自助餐厅用餐时，请务必检查您的食物中是否有以下七种致命物质：马钱子、三氧化二砷、硝基苯、水银、环氧氯丙烷、丙酮硫代氨基甲酸酯和蜘蛛。保持健康！保持警惕。",
+			"delay": 3.2
+		}
+	],
+	/* 结局 - 大门A */
+	"SFX\\Ending\\GateA\\Franklin.ogg": [
+		{
+			"text": "SCP-106已经突破设施抵达A门，立刻发射HID炮塔！绝对不要让他过桥。",
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateA\\STOPRIGHTTHERE.ogg": [
+		{
+			"text": "给我停下！",
+			"delay": 0.25,
+			"color": "mtf"
+		},
+		{
+			"text": "已找到D级人员。",
+			"delay": 3.75,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\GateA\\CI.ogg": [
+		{
+			"text": "你知道的太多了，不能让他们抓到你。跟我们走吧。",
+			"color": "chaos"
+		}
+	],
+	/* 结局 - 大门B */
+	"SFX\\Ending\\GateB\\682Battle.ogg": [
+		{
+			"text": "SCP-682已突破设施B门，我要求所有MTF和直升机部队立刻前往B门。",
+			"delay": 5.65,
+			"color": "announcement"
+		},
+		{
+			"text": "再次重申，SCP-682已突破设施，所有MTF和直升机部队立刻前往B门。",
+			"delay": 13.8,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\DetonatingAlphaWarheads.ogg": [
+		{
+			"text": "我们将在90秒后引爆Alpha弹头。所有人员必须立即前往最近的直升机或防爆盾避难。",
+			"delay": 0.42,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\AlphaWarheadsFail.ogg": [
+		{
+			"text": "由于未知原因未能引爆弹头，所有MTF部队立刻返回B门。捕捉SCP-682是我们目前的首要任务。",
+			"delay": 0.38,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Ending\\GateB\\PlayerDetect.ogg": [
+		{
+			"text": "他在那，开始射击！",
+			"color": "mtf"
+		}
+	],
+	/* 环境音 */
+	"SFX\\Room\\Intro\\Commotion\\Commotion21.ogg": [
+		{
+			"text": "不要害怕，我就是解药。",
+			"delay": 11.0,
+			"color": "049"
+		}
+	]
+}
