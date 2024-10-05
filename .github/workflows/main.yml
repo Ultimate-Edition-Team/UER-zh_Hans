@@ -17,4 +17,5 @@ jobs:
         uses: distributhor/workflow-webhook@v3
         with:
           webhook_url: https://files.ziyuesinicization.site/transrepo.php
+          data: '{ "master_branch": "main" }'
           
