@@ -2,6 +2,8 @@ name: Update localization files
 
 on:
   push:
+    branches:
+      - main
 
 permissions:
   contents: read
