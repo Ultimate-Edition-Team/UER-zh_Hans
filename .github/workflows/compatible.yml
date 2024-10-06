@@ -22,5 +22,5 @@ jobs:
         uses: distributhor/workflow-webhook@v3
         with:
           webhook_url: https://files.ziyuesinicization.site/transrepo.php
-          data: '{ "compatible": "${{ github.event.inputs.version }}" }'
+          data: '{ "master_branch": "main", "compatible": "${{ github.event.inputs.version }}" }'
           
