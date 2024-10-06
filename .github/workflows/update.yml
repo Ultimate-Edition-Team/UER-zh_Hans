@@ -1,4 +1,4 @@
-name: Webhook
+name: Update localization files
 
 on:
   push:
