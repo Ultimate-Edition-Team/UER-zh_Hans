@@ -271,26 +271,6 @@
 		]
 	},
 	{
-		"title": "梅纳德博士",
-		"image": "maynard.png",
-		"align_x": "right",
-		"align_y": "bottom",
-		"background": false,
-		"descriptions": [
-			"乔治·梅纳德博士沉稳内敛，刚从Site-15调来。他与工程技术服务部一同从事模块化设施项目的实施。"
-		]
-	},
-	{
-		"title": "安全主管富兰克林",
-		"image": "franklin.png",
-		"align_x": "left",
-		"align_y": "bottom",
-		"background": false,
-		"descriptions": [
-			"富兰克林·凯尔希是一名前美国陆军中尉，由于某些不光彩的原因而被撤职。他被SCP基金会的安全部门录取，致力于确保设施的安全稳定。"
-		]
-	},
-	{
 		"title": "SCP-682",
 		"image": "682.png",
 		"align_x": "right",
