@@ -1159,44 +1159,44 @@
 	/* 895保安 */
 	"SFX\\Room\\895Chamber\\GuardIdle0.ogg": [
 		{
-			"text": "Nothing's working... nothing's working.... No, no. No!",
+			"text": "什么都没用……什么都没用……不，不，不！",
 			"color": "guard"
 		}
 	],
 	"SFX\\Room\\895Chamber\\GuardIdle1.ogg": [
 		{
-			"text": "What are you doing to my head? No... no please... please! No!",
+			"text": "你在对我做什么？不……不，请……请！不！",
 			"delay": 0.35,
 			"color": "guard"
 		}
 	],
 	"SFX\\Room\\895Chamber\\GuardIdle2.ogg": [
 		{
-			"text": "Don't stress... they're speaking to me...",
+			"text": "不要紧张...他们正在对我说话...",
 			"delay": 1.3,
 			"color": "guard"
 		},
 		{
-			"text": "I- I don't know what to do on my own... please, please help me!",
+			"text": "我-我不知道一个人该怎么办...请，请帮帮我！",
 			"delay": 4.65,
 			"color": "guard"
 		}
 	],
 	"SFX\\Room\\895Chamber\\GuardScream0.ogg": [
 		{
-			"text": "No!",
+			"text": "不!",
 			"color": "guard"
 		}
 	],
 	"SFX\\Room\\895Chamber\\GuardScream1.ogg": [
 		{
-			"text": "No!",
+			"text": "不!",
 			"color": "guard"
 		}
 	],
 	"SFX\\Room\\895Chamber\\GuardScream2.ogg": [
 		{
-			"text": "No!",
+			"text": "不!",
 			"color": "guard"
 		}
 	],
@@ -1487,6 +1487,105 @@
 		{
 			"text": "他们将在重新收容SCP后撤离人员。",
 			"delay": 17.5,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Announc049ContainCI.ogg": [
+		{
+			"text": "SCP-049以被未知武装力量收容。",
+			"delay": 1.1,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Announc096ContainCI.ogg": [
+		{
+			"text": "SCP-096以被未知武装力量收容。",
+			"delay": 1.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Announc106ContainCI.ogg": [
+		{
+			"text": "SCP-106以被未知武装力量收容。九尾狐特遣队和第二安保部队前往收容室进行处决或逮捕。",
+			"delay": 1.0,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\Announc173ContainCI.ogg": [
+		{
+			"text": "SCP-173以被未知武装力量收容。",
+			"delay": 1.3,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncCI.ogg": [
+		{
+			"text": "所有人员注意，一支未知武装力量通过A门渗透了设施。",
+			"delay": 1.1,
+			"color": "announcement"
+		},
+		{
+			"text": "现在我们要求所有人员立即前往指定的安全区域。",
+			"delay": 7.0,
+			"color": "announcement"
+		},
+		{
+			"text": "机动特遣队Epsilon-11已经部署以处理入侵。",
+			"delay": 12.2,
+			"color": "announcement"
+		},
+		{
+			"text": "我们也要求所有非战斗人员去武装自己。",
+			"delay": 17.1,
+			"color": "announcement"
+		},
+		{
+			"text": "第二安保部队将前往A门拦截并消灭威胁。",
+			"delay": 21.1,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncGOC.ogg": [
+		{
+			"text": "所有人员注意，全球超自然联盟部队已突破设施，并正在A门进行部署。",
+			"delay": 1.1,
+			"color": "announcement"
+		},
+		{
+			"text": "所有非必要人员必须立刻前往指定的安全区域或疏散避难所寻找掩护。",
+			"delay": 9.1,
+			"color": "announcement"
+		},
+		{
+			"text": "我们已派遣了额外的机动特遣队Epsilon-11来消灭全球超自然联盟部队。",
+			"delay": 16.0,
+			"color": "announcement"
+		},
+		{
+			"text": "所有剩余的安保人员应参与威胁的消灭。",
+			"delay": 23.0,
+			"color": "announcement"
+		},
+		{
+			"text": "一旦情况得到控制，Epsilon-11将会开始清除任何剩余威胁并疏散人员前往地表。",
+			"delay": 27.2,
+			"color": "announcement"
+		}
+	],
+	"SFX\\Character\\MTF\\AnnouncLostUnknown.ogg": [
+		{
+			"text": "所有站点人员注意，我们失去了和九尾狐机动特遣队的联系。",
+			"delay": 1.1,
+			"color": "announcement"
+		},
+		{
+			"text": "所有人员必须待在安全区域并避免和SCP或当前在场的敌对武装力量接触。",
+			"delay": 6.1,
+			"color": "announcement"
+		},
+		{
+			"text": "另一支机动特遣队即将抵达。",
+			"delay": 12.2,
 			"color": "announcement"
 		}
 	],
@@ -3147,6 +3246,49 @@
 			"color": "chaos"
 		}
 	],
+	"SFX\\Ending\\Ending0.ogg": [
+		{
+			"text": "长官，我们这里出了一个大问题！",
+			"delay": 0.8,
+			"color": "mtf"
+		},
+		{
+			"text": "请详细说明。目标已经被捕获了吗？",
+			"delay": 4.5,
+			"color": "mtf"
+		},
+		{
+			"text": "我不确定这里发生了什么。我们进入了旧的维修隧道，然后它就……关上了。现在我们被困在里面了。桑德斯死了。目标已经失踪了！",
+			"delay": 9.4,
+			"length": 12.0,
+			"color": "mtf"
+		},
+		{
+			"text": "你是说隧道塌陷了吗？",
+			"delay": 21.9,
+			"color": "mtf"
+		},
+		{
+			"text": "不！它没有倒塌。这似乎是一个异常事件。你自己来看看，并找人把我们弄出去。",
+			"delay": 25.5,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\Ending1.ogg": [
+		{
+			"text": "测试日志[已编辑]。主题[已编辑]-[已编辑]。",
+			"delay": 2.1
+		},
+		{
+			"text": "受试者表现出了非凡的运气，即使在最致命的情况下也能完全掌握，并且有一种不可思议的能力，能够预测最不可预测的危险，几乎就像它完成过这些不可能的任务好几次一样。",
+			"delay": 7.8,
+			"length": 16.0
+		},
+		{
+			"text": "需要进一步测试以确定该对象是否应归类为SCP。",
+			"delay": 24.4
+		}
+	],
 	/* 结局 - 大门B */
 	"SFX\\Ending\\GateB\\682Battle.ogg": [
 		{
@@ -3177,6 +3319,46 @@
 	"SFX\\Ending\\GateB\\THEREHEIS.ogg": [
 		{
 			"text": "他在那，开始射击！",
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\Ending2.ogg": [
+		{
+			"text": "长官，我们在B门外的走道上发现了一具死去的D级人员。他的胸口有多处枪伤。我猜他是在我们与SCP682战斗时被射杀的。",
+			"delay": 0.5,
+			"length": 12.0,
+			"color": "mtf"
+		},
+		{
+			"text": "我想知道D级人员是如何通过大门的？把所有靠近大门的摄像机的监控录像都给我，找出在682尝试逃跑之前和期间驻守的人。",
+			"delay": 11.5,
+			"length": 16.0,
+			"color": "mtf"
+		},
+		{
+			"text": "好的长官。",
+			"delay": 26.0,
+			"color": "mtf"
+		}
+	],
+	"SFX\\Ending\\Ending3.ogg": [
+		{
+			"text": "CH-1呼叫OH-6，你们找到目标了吗，完毕？",
+			"color": "mtf"
+		},
+		{
+			"text": "OH-6回复CH-1，没有目标迹象。我认为我们应该派一个MTF-..",
+			"delay": 6.05,
+			"color": "mtf"
+		},
+		{
+			"text": "*ROARS*",
+			"delay": 10.95,
+			"color": "682"
+		},
+		{
+			"text": "CH-1呼叫OH-6, 收到吗？",
+			"delay": 14.95,
 			"color": "mtf"
 		}
 	],
