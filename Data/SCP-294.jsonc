@@ -9,21 +9,21 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"使在最糟糕的情况下，没有什么比新鲜的Cosmopolitan鸡尾酒更棒了。.\""
+		"drink_message": "\"即使在最糟糕的情况下，也没有比新鲜的Cosmopolitan鸡尾酒更棒了。\""
 	},
 	{
 		"name": ["Air", "Nothing", "Emptiness", "Cup", "Paper Cup", "Small Paper Cup", "12 Ounce Paper Cup", "Vacuum", "HL3", "Half Life 3", "Half-Life 3", "Something Cassy Will Like", "Something SCP-085 Will Like", "Empty Cup", "Space", "Liquid Air"],
 		"color": [230, 230, 150],
 		"alpha": 0.1,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense0.ogg",
-		"drink_message": "\"杯子里什么也没有.\""
+		"drink_message": "\"杯子里什么也没有。\""
 	},
 	{
 		"name": ["Aqua Regia", "Regal Vodka", "Royal Vodka"],
 		"color": [170, 75, 0],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
-		"refuse_message": "\"嗯...应该有更多的铜矿.\""
+		"refuse_message": "\"嗯...应该有更多的铜矿。\""
 	},
 	{
 		"name": ["Antimatter", "Anti-matter", "Anti Matter", "Annighilation", "Void", "Atoms As-synthesized In The Sun", "Antiwater", "Anti-water", "Anti Water", "God"],
@@ -31,7 +31,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"death_message": "侦察队进入[数据删除]区域后报告称，以Site-[数据删除]为中心，半径210英里内的一切都被汽化了，只有设施食堂内围绕SCP-294的5米范围未受影响，该食堂位于Sector [数据删除]。",
+		"death_message": "侦察队进入[数据删除]区域后报告称，以Site-[数据删除]为中心，半径210英里内的一切都被汽化了，只有设施食堂内围绕SCP-294的5米范围未受影响，该食堂位于区域[数据删除]。",
 		"explosion": true
 	},
 	{
@@ -41,7 +41,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
 		"blur": 15.0,
-		"death_message": "受害者的口腔、喉咙和面部都被严重的三度烧伤。在口腔内发现了一层黑色的结晶物质。被送去做化学分析。",
+		"death_message": "受害者的口腔、喉咙和面部都被严重的三度烧伤。在口腔内发现了一层黑色的结晶物质。已送去做化学分析。",
 		"death_timer": 0.0
 	},
 	{
@@ -51,7 +51,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Ending\\Ending2.ogg",
-		"drink_message": "你听到脑海里有一个声音."
+		"drink_message": "你听到脑海里有一个声音。"
 	},
 	{
 		"name": ["Alcohol", "Ethanol", "Ethanol Liquid", "Spirit", "Vodka", "Russian Vodka", "American Vodka", "Moonshine", "Hooch"],
@@ -59,7 +59,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew1.ogg",
-		"drink_message": "\"该死，太强了.\"",
+		"drink_message": "\"该死，太烈了。\"",
 		"blur": 5.0
 	},
 	{
@@ -116,7 +116,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "这种液体很烫，会烫疼你的嘴."
+		"drink_message": "这种液体很烫，会烫疼你的嘴"
 	},
 	{
 		"name": ["Anti-Energy Drink", "Anti Energy Drink", "Sleeping Pills", "Sleeping Drink", "Sleep Drink"],
@@ -124,7 +124,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew0.ogg",
-		"drink_message": "这饮料味道很不好。你感到疲倦和筋疲力尽.",
+		"drink_message": "这饮料味道很不好，你感到筋疲力尽",
 		"stamina_effect": 2.0,
 		"stamina_timer": 300.0,
 		"blink_effect": 1.5,
@@ -136,7 +136,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"death_message": "一名D级人员被发现死于[数据删除]部门的设施中[数据删除]。可能是被SCP-294释放的某种物质杀死的。",
+		"death_message": "一名D级人员被发现死于[数据删除]设施的[数据删除]区。可能是被SCP-294释放的某种物质杀死的。",
 		"death_timer": 0.0
 	},
 	{
@@ -153,7 +153,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"丹尼尔，是你吗？你在做什么?!\"",
+		"drink_message": "\"丹尼尔，是你吗？你在做什么？\"",
 		"blur": 10.0
 	},
 	{
@@ -163,7 +163,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\173\\Stonedrag.ogg",
 		"blur": 500.0,
-		"death_message": "发现D-9341的尸体直立站立，手中紧握着一个小纸杯。尸体似乎已经硬化并变得非常脆弱；在尝试将其弯曲到适合运输的位置时，多处肢体在关节处撕裂。值得注意的是，骨头本身从未断裂；这可能有用，值得进一步分析。",
+		"death_message": "D-9341的尸体直立站立，手中紧握着一个小纸杯。尸体似乎已经硬化并变得非常脆弱，在尝试将其弯曲到适合运输的位置时，多处肢体在关节处撕裂。值得注意的是，骨头本身从未断裂。这可能有价值，值得进一步分析。",
 		"death_timer": 0.0
 	},
 	{
@@ -191,7 +191,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"death_message": "派出的侦察队报告称，在[数据删除]区域，整个Site-[数据删除]被汽化了，只有设施食堂内围绕SCP-294的5米范围未受影响，该食堂位于Sector [数据删除]。",
+		"death_message": "派出的侦察队报告称，在[数据删除]区域，整个Site-[数据删除]被汽化了，只有设施食堂内围绕SCP-294的5米范围未受影响，该食堂位于区域[数据删除]。",
 		"explosion": true
 	},
 	{
@@ -200,7 +200,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "你从可靠的SCP-109水壶中喝了一口。",
+		"drink_message": "你从可靠的SCP-109水壶中喝了一口",
 		"damage": -6.0,
 		"bloodloss": -75.0
 	},
@@ -228,7 +228,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"这饮料尝起来像舞曲和你妈妈.\""
+		"drink_message": "\"这饮料尝起来像舞曲和你妈妈。\""
 	},
 	{
 		"name": ["Black Corrosive Liquid", "Corrosive Liquid", "Black Liquid", "SCP-106", "106", "Old Man", "Larry", "Lawrence", "Corporal Lawrence", "Robert Scranton", "Scranton"],
@@ -282,7 +282,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\049\\Spotted6.ogg",
 		"blur": 10.0,
-		"death_message": "在[数据删除]中发现SCP-049-2。实例已终止。",
+		"death_message": "在[数据删除]中发现SCP-049-2。实例已击毙。",
 		"death_timer": 0.0
 	},
 	{
@@ -327,7 +327,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"death_message": "一具后来通过DNA检测确认为D-9341的有机物质遗体被发现，其身体部分组织处于接近绝对零度的极低温状态。遗体残存的咽喉和口腔内含有接近负温度的玻色子颗粒痕迹，因此该物质处于玻色-爱因斯坦凝聚态，这是导致死亡的原因。",
+		"death_message": "一具被发现的有机物质遗体，后来通过DNA检测确认为D-9341。其身体部分组织处于接近绝对零度的极低温状态。遗体残存的咽喉和口腔内含有接近负温度的玻色子颗粒痕迹，因此该物质处于玻色-爱因斯坦凝聚态，这是导致死亡的原因。",
 		"death_timer": 0.0
 	},
 	{
@@ -385,7 +385,7 @@
 		"alpha": 0.94,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew0.ogg",
-		"drink_message": "尝起来像树汁，饮用后不久你的胃开始颤抖。",
+		"drink_message": "尝起来像树汁，饮用后不久你的胃开始颤抖",
 		"stomachache": true,
 		"stamina_effect": 1.5,
 		"stamina_timer": 20.0,
@@ -472,7 +472,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "你享受着椰奶的清爽味道。"
+		"drink_message": "你享受着椰奶的清爽味道"
 	},
 	{
 		"name": ["Yellow Dye", "Yellow Ink"],
@@ -642,7 +642,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Ending\\GateB\\Gunshot.ogg",
-		"death_message": "测试对象D-9341被发现死于[数据删除]。该对象死于5毫米和7毫米口径子弹的多处枪伤，而其衣物完好无损。",
+		"death_message": "对象D-9341被发现死于[数据删除]。该对象死于5毫米和7毫米口径子弹的多处枪伤，而其衣物完好无损。",
 		"death_timer": 0.0
 	},
 	{
@@ -688,7 +688,7 @@
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
 		"drink_message": "\"这饮料尝起来像是金酒、玛格丽特酒和苏格兰威士忌的混合体。\"",
 		"blur": 10.0,
-		"death_message": "发现D-9341处于[数据删除]区域，当时处于极度兴奋状态，随后[数据删除]。被九尾狐小队终结。",
+		"death_message": "发现D-9341处于[数据删除]区域，当时处于极度兴奋状态，随后[数据删除]。已被九尾狐击毙。",
 		"death_timer": 7
 	},
 	{
@@ -728,7 +728,7 @@
 		"dispense_sound": "SFX\\Horror\\Horror3.ogg",
 		"drink_sound": "SFX\\Room\\035Chamber\\InProximity.ogg",
 		"blur": 3.0,
-		"death_message": "九尾狐在[数据删除]区域的Sector [数据删除]附近发现了D-9341的尸体。测试得出的死因为心脏骤停，推测与SCP-294有关。",
+		"death_message": "九尾狐在[数据删除]区域的[数据删除]附近发现了D-9341的尸体。测试得出的死因为心脏骤停，推测与SCP-294有关。",
 		"death_timer": 2
 	},
 	{
@@ -763,7 +763,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
 		"drink_message": "一种无法抗拒的幸福感将你包围，你的心脏疯狂地跳动着。",
-		"death_message": "九尾狐在事件发生后发现了D-9341的尸体。受害者脸上带着异常巨大的笑容。进一步的测试表明死因为心脏病发作，但心脏病发作的具体原因仍未确定。",
+		"death_message": "九尾狐在收容失效结束后发现了D-9341的尸体。受害者脸上带着异常巨大的笑容。进一步的测试表明死因为心脏病发作，但心脏病发作的具体原因仍未确定。",
 		"death_timer": 10
 	},
 	{
@@ -790,7 +790,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"嗯，很甜!.\""
+		"drink_message": "\"嗯，很甜！\""
 	},
 	{
 		"name": ["Noni Juice", "Juice Noni"],
@@ -847,7 +847,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
 		"blur": 15.0,
-		"death_message": "D-9341被发现死亡，受害者的器官和口腔遭受多次4度烧伤，胃里有熔化金属的痕迹。一个聚苯乙烯杯子也放在实验对象的尸体旁边。死因很可能与 [数据删除].",
+		"death_message": "D-9341被发现死亡，受害者的器官和口腔遭受多次4度烧伤，胃里有熔化金属的痕迹。一个聚苯乙烯杯子也放在实验对象的尸体旁边。死因很可能与[数据删除]有关。",
 		"death_timer": 0.0
 	},
 	{
@@ -888,7 +888,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"闻起来很浓烈……但尝起来有点像牛奶……\"",
+		"drink_message": "\"闻起来很浓烈...但尝起来有点像牛奶...\"",
 		"stomachache": true,
 		"blur": 10.0
 	},
@@ -905,7 +905,7 @@
 		"alpha": 1.0,
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
-		"drink_message": "你感觉好像有人在等你.，",
+		"drink_message": "你感觉好像有人在等你",
 		"blink_effect": 0.5,
 		"blink_timer": 30.0,
 		"blur": 2.0,
@@ -919,7 +919,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\Ending\\MenuBreath.ogg",
-		"drink_message":"\"嘘，没有眼泪，现在只有梦想.没必要难过.\""
+		"drink_message":"\"嘘，没有眼泪，现在只有梦想。没必要难过。\""
 	},
 	{
 		"name": ["Joe", "Joseph", "Cat", "Dog", "Intestines", "Stomach", "Grey Alien", "Gray Alien", "Alien", "Man", "Woman", "Human", "Lungs", "SCP-939", "SCP-966", "Monkey", "Mouse", "Rat", "Bird"],
@@ -927,7 +927,7 @@
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"这饮料尝起来像血.还是温的.\""
+		"drink_message": "\"这饮料尝起来像血，还是温的。\""
 	},
 	{
 		"name": ["Knowledge", "Help"],
@@ -936,7 +936,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"如果我想通过B门，或者为了通过a门而逃生 我需要SCP-079的帮助.\""
+		"drink_message": "\"如果我想通过B门，或者通过A门离开，我就需要SCP-079的帮助。\""
 	},
 	{
 		"name": ["Mercury", "Quick Silver"],
@@ -944,7 +944,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "这饮料像奶油一样浓，会灼伤你的喉咙.",
+		"drink_message": "这饮料像奶油一样浓，会灼伤你的喉咙",
 		"stomachache": true,
 		"blur": 50.0,
 		"bloodloss": 10.0
@@ -955,7 +955,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "这种饮料的味道和你以前喝过的任何东西都不一样。你感觉比以往任何时候都好.，",
+		"drink_message": "这种饮料的味道和你以前喝过的任何东西都不一样。你感觉比以往任何时候都好。",
 		"blur": 10.0,
 		"damage": -10.0,
 		"bloodloss": -100.0
@@ -967,7 +967,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "\"一个回响的声音喊道：“你不能！这颗宝石承载着我的生命力\"",
+		"drink_message": "一个回响的声音喊道：“你不能！这颗宝石承载着我的生命力！！”",
 		"stomachache": true,
 		"blur": 100.0,
 		"bloodloss": 3.0,
@@ -980,8 +980,8 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "这种液体几乎会立即分解你的内脏.",
-		"death_message": "Subject D-9341 was found dead with the victim's organs and mouth cavity suffering numerous 4th degree burns and traces of molten igneous rock in the stomach. A polystyrene cup was also located next to the subject's body. Cause of death is most likely linked to [DATA REDACTED].",
+		"drink_message": "这种液体几乎在瞬间分解了你的内脏",
+		"death_message": "对象D-9341被发现死亡。对象的器官和口腔被严重烧伤，胃部有熔岩的痕迹。一个聚苯乙烯杯子被放在尸体旁边。死因很可能与[数据删除]有关。",
 		"death_timer": 0.0
 	},
 	{
@@ -990,7 +990,7 @@
 		"alpha": 0.7,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "这是一种美味，温暖 奶油味的蘑菇茶.",
+		"drink_message": "这是一种美味、温暖、奶油味的蘑菇茶",
 		"stamina_effect": 0.5,
 		"stamina_timer": 20.0,
 		"blur": 10.0
@@ -1063,7 +1063,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"death_message": "在SCP-294附近发现D-9341的尸体，他手中拿着一个装有熔融放射性元素的杯子，该元素正由调查人员进行识别。根据严重烧伤的消化器官和尸体的放射性，可以判断D-9341摄入了该物质。",
+		"death_message": "在SCP-294附近发现D-9341的尸体，他手中拿着一个装有熔融放射性元素的杯子，该元素正由调查人员进行分析。根据严重烧伤的消化器官和尸体的放射性，可以判断D-9341摄入了该物质。",
 		"death_timer": 0.0
 	},
 	{
@@ -1095,14 +1095,14 @@
 		"color": [100, 100, 255],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
-		"refuse_message": "\"这饮料闻起来不错，但我不喝。\""
+		"refuse_message": "\"偶喜欢嚯这种饮料 XD 味道好极鸟\""
 	},
 	{
 		"name": ["Microwave Casserole"],
 		"color": [245, 238, 144],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense0.ogg",
-		"refuse_message": "通过一系列复杂的思想和内心活动，你感觉这属于别人。"
+		"refuse_message": "通过一系列复杂的思想和内心活动，你感觉这是别人的东西"
 	},
 	{
 		"name": ["Galaga", "Old Game", "Good Game", "Nostalgia", "Oldfag"],
@@ -1111,7 +1111,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "你梦想着玩《大蜜蜂》。"
+		"drink_message": "你梦想着玩《大蜜蜂》"
 	},
 	{
 		"name": ["Milk Soup", "Milk Cocktail", "Boiled Milk", "Cow Milk", "Goat Milk", "Goats Milk", "Cows Milk", "Milk Of Cow", "Milk Of Goat", "Milk", "Milk Puding", "Curds", "Cottage Cheese", "Kefir", "Ryazhenka", "Varenets", "Kumys"],
@@ -1126,7 +1126,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew0.ogg",
-		"drink_message": "味道酸甜，但对你来说有点过于甜腻了。",
+		"drink_message": "味道酸甜，但对你来说有点太甜了",
 		"stamina_effect": 0.4,
 		"stamina_timer": 10.0,
 		"blur": 1.0
@@ -1137,7 +1137,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\Music\\Using420J.ogg",
-		"drink_message": "\"这饮料真是太棒了。\"",
+		"drink_message": "\"我操这东西太牛逼了\"",
 		"damage": -0.5
 	},
 	{
@@ -1146,7 +1146,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"这饮料尝起来略带浓烈和酸涩。\"",
+		"drink_message": "\"这饮料尝起来略带浓烈和酸涩\"",
 		"stamina_effect": 1.2,
 		"stamina_timer": 200.0,
 		"blur": 5.0
@@ -1158,7 +1158,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "\"我本应成为一名海盗，扬帆起航，遨游四海！不幸的是，当你开始感到喉咙和胃部有可怕的灼烧感时，你意识到自己其实并不习惯饮用如此烈性的饮品……\"",
+		"drink_message": "\"我本应成为一名海盗，扬帆起航，遨游四海！不幸的是，当你开始感到喉咙和胃部有可怕的灼烧感时，你意识到自己其实并不习惯饮用如此烈性的饮品...\"",
 		"death_message": "发现D-9341面朝下倒在血泊中，上消化道似乎被腐蚀熔化。在尸体附近发现了一个杯子，上面印着字样：“冥河是河流，不是海洋，白痴。” 死因毫无疑问与SCP-294有关。",
 		"death_timer": 8
 	},
@@ -1200,7 +1200,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "\"哇！停下！这到底是什么！？我体内有东西！\""
+		"drink_message": "\"哇！停下！这到底是什么！？我身体里有东西在动！\""
 	},
 	{
 		"name": ["Mud", "Clay", "Gravel", "Sand"],
@@ -1215,7 +1215,7 @@
 		"alpha": 0.6,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew1.ogg",
-		"drink_message": "\"呃……我感觉不太舒服……\"",
+		"drink_message": "\"呃...我感觉不太舒服...\"",
 		"stomachache": true,
 		"vomit": 20.0
 	},
@@ -1226,7 +1226,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
 		"blur": 20.0,
-		"death_message": "九尾狐特遣队发现D-9341号实验对象在[数据删除]区域变成了[数据删除]。未发现SCP-049的迹象。",
+		"death_message": "九尾狐发现D-9341在[数据删除]区域变成了[数据删除]。未发现SCP-049的迹象。",
 		"death_timer": 0.0
 	},
 	{
@@ -1254,7 +1254,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "这饮料尝起来苦得难以置信。你感到胃里一阵灼烧般的疼痛。",
+		"drink_message": "这饮料苦得难以置信。你感到胃里一阵灼烧般的疼痛。",
 		"stomachache": true,
 		"damage": 2.0
 	},
@@ -1263,7 +1263,7 @@
 		"color": [219, 217, 195],
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
-		"refuse_message": "While it does smell lovely, I'd rather wear it than drink it."
+		"refuse_message": "虽然闻起来很可爱，但我宁愿穿它，而不是喝它"
 	},
 	{
 		"name": ["Pina Colada", "Pina-colada", "Non-alcoholic Pina Colada", "Non-alcoholic Pina-Colada", "Non Alcoholic Pina Colada", "Non Alcoholic Pina-Colada", "Alcohol-free Pina Colada", "Alcohol Free Pina Colada", "Alcohol Free Pina-colada", "Alcohol Free Pina-colada"],
@@ -1286,7 +1286,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "熔化的塑料灼烧着你的口腔。",
+		"drink_message": "熔化的塑料灼烧着你的口腔",
 		"blur": 2.0,
 		"damage": 1.0
 	},
@@ -1378,7 +1378,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "水瞬间烫伤了你的嘴。",
+		"drink_message": "水瞬间烫伤了你的嘴",
 		"blur": 20.0
 	},
 	{
@@ -1387,7 +1387,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "这是一杯美味的蓝莓香蕉冰沙。",
+		"drink_message": "这是一杯美味的蓝莓香蕉冰沙",
 		"stamina_effect": 0.5,
 		"stamina_timer": 15.0
 	},
@@ -1405,7 +1405,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\Nuclear2.ogg",
-		"death_message": "派往[数据删除]区域的侦察小队报告显示，整个[数据删除]站点都被汽化了，只有设施食堂内围绕SCP-294的5米范围未受影响，该食堂位于Sector [数据删除]。",
+		"death_message": "派往[数据删除]区域的侦察小队报告显示，整个[数据删除]站点都被汽化了，只有设施食堂内围绕SCP-294的5米范围未受影响，该食堂位于[数据删除]区。",
 		"death_timer": 0.0,
 		"explosion": true
 	},
@@ -1432,7 +1432,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "这极其咸涩的液体几乎让人无法忍受。你开始感到脱水和头晕。",
+		"drink_message": "这极其咸涩的液体几乎让人无法忍受，你开始感到脱水和头晕",
 		"blur": 4.0
 	},
 	{
@@ -1441,7 +1441,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "你感到发烧了。",
+		"drink_message": "你感觉有点发烧",
 		"blur": 50.0,
 		"infection": true
 	},
@@ -1459,7 +1459,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "\"用户名 666...\"",
+		"drink_message": "\"Username 666...\"",
 		"death_timer": 0.0
 	},
 	{
@@ -1475,7 +1475,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "这是一份美味、温暖且浓郁的蘑菇炖菜。",
+		"drink_message": "这是一份美味、温暖且浓郁的蘑菇炖菜",
 		"stamina_effect": 0.5,
 		"stamina_timer": 20.0,
 		"blur": 10.0
@@ -1486,7 +1486,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "这液体尝起来像你今天早上喝的菠菜汤。"
+		"drink_message": "这液体尝起来像你今天早上喝的菠菜汤"
 	},
 	{
 		"name": ["Rotten Flesh", "Flesh"],
@@ -1511,7 +1511,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "你感到非常紧张。",
+		"drink_message": "你感到非常紧张",
 		"stamina_effect": 0.0,
 		"stamina_timer": 15.0,
 		"blur": 15.0
@@ -1529,7 +1529,7 @@
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "\"热! 热! 热!\"",
+		"drink_message": "\"烫! 烫! 烫！\"",
 		"blur": 2.0
 	},
 	{
@@ -1572,7 +1572,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "虽然甜得令人无法抗拒，但甜腻到极点让你感到恶心。",
+		"drink_message": "虽然甜得令人无法抗拒，但甜腻到极点让你感到恶心",
 		"blur": 7.0
 	},
 	{
@@ -1588,7 +1588,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"热的不得了!\""
+		"drink_message": "\"烫得不得了！\""
 	},
 	{
 		"name": ["SCP-2107", "2107", "Diet Ghost"],
@@ -1620,7 +1620,7 @@
 		"alpha": 0.7,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"干杯伙计.\"",
+		"drink_message": "\"干杯伙计\"",
 		"blur": 90.0
 	},
 	{
@@ -1629,7 +1629,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "这液体尝起来像橙味水。"
+		"drink_message": "这液体尝起来像橙味水"
 	},
 	{
 		"name": ["Tropical Juice", "Tropical Water", "Tropical Fruits", "Chilled Orange Juice"],
@@ -1645,7 +1645,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"Meh, it's ok. Never was a big fan of tomato juice though.\""
+		"drink_message": "\"额，还行吧。我不是很喜欢番茄汁。\""
 	},
 	{
 		"name": ["Urine Of Phascolarctos Cinereus", "Piss", "Pee", "Jarate", "Urine Of Coala", "My Urine"],
@@ -1660,7 +1660,7 @@
 		"alpha": 0.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"death_message": "Subject D-9341 was found dead in [DATA REDACTED]. The cup the Class-D Subject drank was labelled 'Cyanide'.",
+		"death_message": "对象D-9341的尸体在[数据删除]被发现。对象喝的饮料杯上面写着“氰化物”。",
 		"death_timer": 0.0
 	},
 	{
@@ -1693,7 +1693,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Ending\\Ending0.ogg",
-		"drink_message": "You hear clear voices in your head, what does it mean?",
+		"drink_message": "你在头脑里听到了一个清脆的声音，那是什么意思？",
 		"death_message": "摄像头显示SCP-173在B门附近的[数据删除]处杀死了[数据删除]。",
 		"death_timer": 0.0
 	},
@@ -1710,7 +1710,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew1.ogg",
-		"drink_message": "这种味道让你感到不适。",
+		"drink_message": "这种味道让你感到不适",
 		"stomachache": true
 	},
 	{
@@ -1719,7 +1719,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这饮料尝起来像加了牛奶的甜菊苣。\"",
+		"drink_message": "\"这饮料尝起来像加了牛奶的甜菊苣\"",
 		"stamina_effect": 0.9,
 		"stamina_timer": 30.0,
 		"blur": 2.0
@@ -1744,7 +1744,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "成就解锁 - 成就之杯"
+		"drink_message": "成就已解锁 - 一杯成就"
 	},
 	{
 		"name": ["White Port and Lemon Juice", "WPLJ"],
@@ -1752,7 +1752,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"请，请，请，给我一些...\""
+		"drink_message": "\"♪ 请再多给我一些 ♪\""
 	},
 	{
 		"name": ["Yoghurt", "Yogurt", "Berry Yoghurt", "Berry Yogurt"],
@@ -1760,7 +1760,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这是一杯浓稠的混合浆果酸奶，没有固体颗粒。\"",
+		"drink_message": "\"这是一杯浓稠的混合浆果酸奶，没有固体颗粒\"",
 		"stamina_effect": 0.5,
 		"stamina_timer": 10.0
 	},
@@ -1771,7 +1771,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "你是个彻头彻尾的白痴。"
+		"drink_message": "你是个彻头彻尾的白痴"
 	},
 	{
 		"name": ["S3CR3TDR1NK", "S3CR3T DR1NK"],
@@ -1780,7 +1780,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
 		"drink_message": "\"哇！你真的很喜欢玩SCP-294，不是吗？可惜你还来不及告诉任何人就死了。\"",
-		"death_message": "在[数据删除]处发现了D-9341的尸体。D-9341的死因不明。",
+		"death_message": "在[数据删除]处发现了D-9341的尸体。死因不明。",
 		"death_timer": 11
 	},
 	{
@@ -1789,7 +1789,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"这尝起来像粘液。\"",
+		"drink_message": "\"这尝起来像粘液\"",
 		"blur": 5.0
 	},
 	{
@@ -1798,7 +1798,7 @@
 		"alpha": 0.1,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew1.ogg",
-		"drink_message": "\"这饮料很恶心。\"",
+		"drink_message": "\"这饮料很恶心\"",
 		"blur": 6.0,
 		"damage": 2.0
 	},
@@ -1809,7 +1809,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
 		"blur": 5.0,
-		"death_message": "发现一名D级人员在[数据删除]区域。该对象在尝试饮用SCP-294分配的SCP-009时死亡。",
+		"death_message": "在[数据删除]区域发现一名D级人员。该对象在尝试饮用SCP-294制作的SCP-009时死亡。",
 		"death_timer": 0.0
 	},
 	{
@@ -1817,7 +1817,7 @@
 		"color": [200, 200, 200],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
-		"refuse_message": "\"别喝我!\""
+		"refuse_message": "\"别喝我！\""
 	},
 	{
 		"name": ["SCP-578", "578"],
@@ -1865,7 +1865,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"我感觉比以前好多了。\"",
+		"drink_message": "\"我感觉比以前好多了\"",
 		"damage": -5.0,
 		"bloodloss": -50.0,
 		"revitalize": true
@@ -1877,7 +1877,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Character\\Scientist\\EmilyScream.ogg",
-		"drink_message": "\"什么... 这... 该死的... 这只是一个电子游戏！\"",
+		"drink_message": "\"什么... 这... 他妈的... 这只是一个电子游戏！\"",
 		"blur": 50.0,
 		"vomit": 20
 	},
@@ -1900,7 +1900,7 @@
 		"stamina_timer": 60.0,
 		"blink_effect": 0.2,
 		"blink_timer": 60.0,
-		"drink_message": "\"我感觉更强壮了……而且不再感到疲倦。\"",
+		"drink_message": "\"我感觉更强大了...而且不再感到疲倦\"",
 		"death_timer": 60.0
 	},
 	{
@@ -1917,14 +1917,14 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"啊……没有它我活不下去。\""
+		"drink_message": "\"啊...没有它我活不下去\""
 	},
 	{
 		"name": ["Dark Matter", "Darkness", "Shadows"],
 		"color": [0, 0, 0],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\dispense3.ogg",
-		"refuse_message": "\"液体在我喝之前自己压缩了。\""
+		"refuse_message": "\"液体在我喝之前自己压缩了\""
 	},
 	{
 		"name": ["Charizard"],
@@ -1933,7 +1933,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "\"尝起来像……啊！天哪！我的屁股着火了！\"",
+		"drink_message": "\"尝起来像...啊！天哪！我的屁股着火了！\"",
 		"blur": 5.0,
 		"death_timer": 0.0
 	},
@@ -1961,7 +1961,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"嗯……\""
+		"drink_message": "\"嗯...\""
 	},
 	{
 		"name": ["Lembas Bread", "Anti-Hunger Drink", "Anti Hunger Drink", "Anti-Hunger Liquid", "Anti Hunger Liquid", "Anti-Hunger Food", "Anti Hunger Food"],
@@ -1969,7 +1969,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "你感到饥饿和疲劳得到了缓解。",
+		"drink_message": "你的饥饿和疲劳得到了缓解",
 		"stamina_effect": 0.5,
 		"blink_effect": 0.5
 	},
@@ -1996,7 +1996,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这饮料味道美味，虽然有点甜。\""
+		"drink_message": "\"这饮料很好喝，就是有点甜\""
 	},
 	{
 		"name": ["LSD", "Euphoria", "Nyan Cat"],
@@ -2006,7 +2006,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
 		"blur": 750.0,
-		"death_message": "在[数据删除]区域发现D-9341处于精神病状态。由九尾狐小队终结。",
+		"death_message": "在[数据删除]区域发现D-9341处于精神病状态。被九尾狐击毙。",
 		"death_timer": 0.0
 	},
 	{
@@ -2040,7 +2040,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"好久没喝过这种饮料了。\""
+		"drink_message": "\"好久没喝过这种饮料了\""
 	},
 	{
 		"name": ["Anonymity", "Anonymous", "Unknown", "Btard"],
@@ -2059,7 +2059,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "你感觉和以前一模一样。",
+		"drink_message": "你感觉和以前一模一样",
 		"stamina_timer": 120.0
 	},
 	{
@@ -2075,7 +2075,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"这饮料让我一点也不臭了。\""
+		"drink_message": "\"这饮料让我一点也不臭了\""
 	},
 	{
 		"name": ["Martini", "Vodka Martini"],
@@ -2083,7 +2083,7 @@
 		"alpha": 0.1,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"我更喜欢搅拌过的，而不是摇晃过的。\"",
+		"drink_message": "\"我更喜欢搅拌过的，而不是摇晃过的\"",
 		"blur": 10.0
 	},
 	{
@@ -2101,7 +2101,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
 		"blur": 10.0,
-		"death_message": "发现一名D级人员死亡，下颌[D级人员编号已删除]。目前尚无法确认身份。",
+		"death_message": "发现一名D级人员死亡，下颌[数据删除]。目前尚无法确认身份。",
 		"death_timer": 0.0
 	},
 	{
@@ -2119,7 +2119,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"撕裂并撕碎，直到完成。\"",
+		"drink_message": "\"撕裂并撕碎，直到完成\"",
 		"stamina_effect": 0.0,
 		"stamina_timer": 20.0,
 		"blur": 10.0
@@ -2130,7 +2130,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "你感受到世界上的巨大不公，并产生了一种强烈的冲动，想要向世界展示你的阴茎。",
+		"drink_message": "你感受到世界上的巨大不公，并产生了一种强烈的冲动，想要向世界展示你的阴茎",
 		"stamina_effect": 0.0,
 		"stamina_timer": 10.0,
 		"blur": 100.0
@@ -2141,7 +2141,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "你感觉有什么东西在你体内爬行。",
+		"drink_message": "你感觉有什么东西在你体内爬行",
 		"stomachache": true,
 		"blur": 5.0
 	},
@@ -2151,7 +2151,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew1.ogg",
-		"drink_message": "\"我不喜欢普通的旧番茄酱。\""
+		"drink_message": "\"我不喜欢传统的番茄酱\""
 	},
 	{
 		"name": ["Two Girls One Cup", "2 Girls 1 Cup", "Rap Is Crap", "Pupil", "FNAF", "Five Nights At Freddys", "GTA", "Grand Theft Auto", "COC", "Clash Of Clans", "LOL", "League Of Legends"],
@@ -2159,7 +2159,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"呃……这饮料尝起来像屎一样！\"",
+		"drink_message": "\"呃...这饮料尝起来像屎一样！\"",
 		"stomachache": true,
 		"blur": 30.0,
 		"vomit": 20.0
@@ -2180,7 +2180,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\Joke\\789J.ogg",
-		"drink_message": "你听到屁股幽灵在和你说话。"
+		"drink_message": "你听到屁股鬼魂在和你说话"
 	},
 	{
 		"name": ["An X Element", "X Element"],
@@ -2198,7 +2198,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Room\\106chamber\\MagnetDown.ogg",
-		"death_message": "发现D-9341号实验对象死亡，身体表面无可见伤口。尸检表明该实验对象死于突发性神经活动停止。",
+		"death_message": "发现D-9341的尸体，身体表面无可见伤口。尸检表明该实验对象死于突发性神经活动停止。",
 		"death_timer": 0.0
 	},
 	{
@@ -2214,7 +2214,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"death_message": "MTF九尾狐发现了D-9341的冷冻尸体。D-9341紧握着一个小纸杯；据信该测试对象是在饮用SCP-294分配的冷饮后死亡的。",
+		"death_message": "九尾狐发现了D-9341的冷冻尸体，D-9341紧握着一个小纸杯。推测该测试对象是在饮用SCP-294制作的冷饮后死亡的。",
 		"death_timer": 0.0
 	},
 	{
@@ -2223,7 +2223,7 @@
 		"alpha": 0.6,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"death_message": "九尾狐“见不得恶”小队的一名成员在设施内发现了一滩生物物质。DNA分析表明，这滩物质是D-9341的融化残骸。",
+		"death_message": "非礼勿视的一名成员在设施内发现了一滩生物物质。DNA分析表明，这滩物质是D-9341的融化残骸。",
 		"death_timer": 0.0
 	},
 	{
@@ -2232,7 +2232,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew0.ogg",
-		"drink_message": "你感到灼热的疼痛。",
+		"drink_message": "你感到灼热的疼痛",
 		"blur": 50.0,
 		"damage": 3.0,
 		"bloodloss": 40.0
@@ -2243,7 +2243,7 @@
 		"alpha": 0.6,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Horror\\Horror6.ogg",
-		"drink_message": "有时，闭上眼睛屏蔽周围所有可怕的事情会让人感到安慰。但这次不是。",
+		"drink_message": "有时，闭上眼睛屏蔽周围所有可怕的事情，会让人感到安全。但这次不是。",
 		"blink_effect": 2.0,
 		"blink_timer": 120,
 		"blur": 115.0
@@ -2254,7 +2254,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "你立即从任何肌肉无力中恢复过来，现在你充满了能量。",
+		"drink_message": "你立即从疲惫中恢复过来，现在你充满了能量",
 		"stamina_effect": 0.3,
 		"stamina_timer": 300.0
 	},
@@ -2264,7 +2264,7 @@
 		"alpha": 0.6,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "你的肚子开始剧烈地咕咕作响，你开始剧烈地放屁。",
+		"drink_message": "你的肚子开始剧烈地咕咕作响，你开始剧烈地放屁",
 		"stomachache": true
 	},
 	{
@@ -2273,7 +2273,7 @@
 		"alpha": 0.6,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"它尝起来像...葡萄酒...但是真的很提神.\""
+		"drink_message": "\"它尝起来像...葡萄酒...但是真的很提神\""
 	},
 	{
 		"name": ["Grapefruit Juice", "Pomegranate Juice", "Granate Juice"],
@@ -2289,7 +2289,7 @@
 		"alpha": 0.6,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"嗯……啊……\""
+		"drink_message": "\"嗯...啊...\""
 	},
 	{
 		"name": ["Sandvich", "Sandwich", "Heavys Snack", "Heavys Lunch", "Delicious"],
@@ -2297,7 +2297,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"啊，真饱！哈哈哈。\"",
+		"drink_message": "\"啊，真饱！哈哈哈\"",
 		"bloodloss": -50.0
 	},
 	{
@@ -2314,7 +2314,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"death_message": "在Site-[数据删除]的[数据删除]区域发现了一具人类骸骨。研究人员确认，受害者的皮肤因 intense heat（高温）而被烧毁。",
+		"death_message": "在Site-[数据删除]的[数据删除]区域发现了一具人类骸骨。研究人员确认，对象的皮肤因高温而被烧伤。",
 		"death_timer": 0.0
 	},
 	{
@@ -2323,7 +2323,7 @@
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\Music\\Room012Golgotha.ogg",
-		"drink_message": "\"我不知道我在想什么。但我必须完成它……\"",
+		"drink_message": "\"我不知道我在想什么，但我必须完成它...\"",
 		"blur": 500.0,
 		"damage": 7.0,
 		"bloodloss": 75.0,
@@ -2360,7 +2360,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "\"我觉得很奇怪……\"",
+		"drink_message": "\"我觉得很奇怪...\"",
 		"blur": 10.0,
 		"death_timer": 0.0
 	},
@@ -2371,7 +2371,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
 		"drink_message": "你感到一种奇怪的感觉，四肢开始收缩。记忆从你的脑海中逐渐消失，身体扭曲并恢复到你出生前的状态。",
-		"death_message": "在[数据删除]处发现了一件D级人员的连体工作服。经确认，该工作服属于实验对象D-9341。",
+		"death_message": "在[数据删除]处发现了一件D级人员的连体服。经确认，该工作服属于对象D-9341。",
 		"death_timer": 0.0
 	},
 	{
@@ -2391,8 +2391,8 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense0.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "你感觉有人在用360度无瞄准技巧狙击你。",
-		"death_message": "实验对象D-9341在[数据删除]区域被干预行动击倒。",
+		"drink_message": "你感觉有人在360度瞄准你",
+		"death_message": "对象D-9341在[数据删除]区域被击毙。",
 		"death_timer": 0.0
 	},
 	{
@@ -2409,7 +2409,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\Ending\\GateA\\Bell0.ogg",
-		"drink_message": "你听到脑海里有音乐声。"
+		"drink_message": "你听到脑海里有音乐声"
 	},
 	{
 		"name": ["Prune Dye", "Prune Ink"],
@@ -2424,7 +2424,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "你意识到你将错过圣诞节。",
+		"drink_message": "你意识到你将错过圣诞节",
 		"blur": 10.0,
 		"death_timer": 50.0
 	},
@@ -2434,7 +2434,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "这杯饮料赋予你继续逃离SCP设施的力量。",
+		"drink_message": "这杯饮料赋予你继续逃离设施的力量",
 		"stamina_effect": 0.3,
 		"stamina_timer": 555.0,
 		"damage": -8.0,
@@ -2446,7 +2446,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\008\\KillScientist1.ogg",
-		"drink_message": "\"非常美味的巧克力……哦，天哪！谁在吃我？！……\"",
+		"drink_message": "\"非常美味的巧克力...哦，天哪！谁在吃我！？\"",
 		"blur": 500.0,
 		"death_timer": 0.0
 	},
@@ -2465,7 +2465,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\173\\NeckSnap0.ogg",
-		"drink_message": "你不知道这是什么味道，但尝起来很美味。",
+		"drink_message": "你不知道这是什么味道，但尝起来很美味",
 		"death_timer": 0.0
 	},
 	{
@@ -2500,7 +2500,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"death_message": "发现D-9341号实验对象死亡，其下颌骨被一种据推测来自SCP-294的液体腐蚀掉。",
+		"death_message": "发现D-9341的尸体，其下颌骨被一种据推测来自SCP-294的液体腐蚀掉。",
 		"death_timer": 0.0
 	},
 	{
@@ -2509,7 +2509,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这很刺激，但不错。\""
+		"drink_message": "\"这很辣，但还不错\""
 	},
 	{
 		"name": ["Music", "Taste Of Music", "Dance", "Dancing"],
@@ -2518,7 +2518,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Music\\Using420J.ogg",
-		"drink_message": "这味道异常苦涩，你注意到音乐在你的脑海中不受控制地播放。",
+		"drink_message": "这味道异常苦涩，你注意到音乐在你的脑海中不受控制地播放",
 		"blur": 100.0
 	},
 	{
@@ -2528,7 +2528,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
 		"blur": 10.0,
-		"death_message": "在[数据删除]区域发现了D-9341的尸体。该个体经历了与SCP-686相关的变异。目标已终结。",
+		"death_message": "在[数据删除]区域发现了D-9341的尸体。该对象经历了与SCP-686相关的变异。对象已击毙。",
 		"death_timer": 0.0
 	},
 	{
@@ -2538,7 +2538,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"我记得一切了。我想写一本关于我人生的传记。\""
+		"drink_message": "\"我全都想起来了，我想写一本关于我人生的传记\""
 	},
 	{
 		"name": ["Margarita Cocktail", "Cocktail Margarita", "Margaritas"],
@@ -2553,7 +2553,7 @@
 		"color": [145, 110, 58],
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
-		"refuse_message": "\"决不, 我绝不会想喝这个饮料.\""
+		"refuse_message": "\"决不，我绝不会想喝这个饮料\""
 	},
 	{
 		"name": ["Vaseline", "Ointment", "Paste", "Toothpaste"],
@@ -2575,7 +2575,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"尝起来像甜巧克力奶油。\""
+		"drink_message": "\"尝起来像甜巧克力奶油\""
 	},
 	{
 		"name": ["SCP-096", "096", "Shy Guy", "Something Not Like SCP-096", "Something Not Like Shy Guy"],
@@ -2592,7 +2592,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "你感到神清气爽。",
+		"drink_message": "你感到神清气爽",
 		"bloodloss": -40.0
 	},
 	{
@@ -2601,7 +2601,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这饮料尝起来像加了牛奶的甜咖啡。\"",
+		"drink_message": "\"这饮料尝起来像加了牛奶的甜咖啡\"",
 		"stamina_effect": 0.7,
 		"stamina_timer": 25.0,
 		"blur": 2.0
@@ -2621,7 +2621,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这很甜。\""
+		"drink_message": "\"很甜\""
 	},
 	{
 		"name": ["Strawberry Ice Cream", "Strawberry-banana Ice Cream", "Banana-strawberry Ice Cream", "Strawberry Yoghurt", "Strawberry Milk Cocktail", "Cherry Milk Cocktail", "Strawberry Pudding", "Cherry Pudding", "Сherry Yoghurt"],
@@ -2629,7 +2629,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"非常甜.\""
+		"drink_message": "\"非常甜\""
 	},
 	{
 		"name": ["Purple Dye", "Purple Ink"],
@@ -2683,7 +2683,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "\"这味道像……\"",
+		"drink_message": "\"这味道像...\"",
 		"death_timer": 0.0
 	},
 	{
@@ -2692,7 +2692,7 @@
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "The drink burns slightly going down, giving you an incredible urge to punch everything.",
+		"drink_message": "喝的时候有一点灼烧感，让你有一种吐出来的冲动",
 		"blur": 30.0
 	},
 	{
@@ -2743,7 +2743,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"这饮料尝起来甜美可口。\""
+		"drink_message": "\"这饮料尝起来甜美可口\""
 	},
 	{
 		"name": ["Nestea With Apple Juice", "Apple Nestea", "Apple Lipton", "Lipton With Apple Juice"],
@@ -2751,7 +2751,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这种饮料尝起来像冷苹果茶.\""
+		"drink_message": "\"这种饮料尝起来像冷苹果茶\""
 	},
 	{
 		"name": ["Nestea With Pear Juice", "Pear Nestea", "Pear Lipton", "Lipton With Pear Juice"],
@@ -2759,7 +2759,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这种饮料尝起来像冻梨茶.\""
+		"drink_message": "\"这种饮料尝起来像冻梨茶\""
 	},
 	{
 		"name": ["Beetroot Soup", "Beets", "Borsh"],
@@ -2767,7 +2767,7 @@
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这液体尝起来像甜菜汤。\""
+		"drink_message": "\"这液体尝起来像甜菜汤\""
 	},
 	{
 		"name": ["Borsh With Sour Cream", "Beetroot Soup With Sour Cream", "Beetroot Soup And Sour Cream"],
@@ -2775,7 +2775,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这液体尝起来像加了酸奶油的甜菜汤。\""
+		"drink_message": "\"这液体尝起来像加了酸奶油的甜菜汤\""
 	},
 	{
 		"name": ["Food From My Stomach", "Liquid From My Stomach", "Drink From My Stomach", "Foods From My Stomach", "Liquids From My Stomach", "Drinks From My Stomach", "Food Out Of My Stomach", "Liquid Out Of My Stomach", "Drink Out Of My Stomach", "Foods Out Of My Stomach", "Liquids Out Of My Stomach", "Drinks Out Of My Stomach", "Food From My Intestines", "Liquid From My Intestines", "Drink From My Intestines", "Foods From My Intestines", "Liquids From My Intestines", "Drinks From My Intestines", "Food Out Of My Intestines", "Liquid Out Of My Intestines", "Drink Out Of My Intestines", "Foods Out Of My Intestines", "Liquids Out Of My Intestines", "Drinks Out Of My Intestines"],
@@ -2783,7 +2783,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "你感到胃部有灼烧般的疼痛。你的胃是空的。",
+		"drink_message": "你感到胃部有灼烧般的疼痛，而且胃是空的",
 		"stomachache": true,
 		"stamina_effect": 1.5,
 		"blink_effect": 1.5,
@@ -2806,7 +2806,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"橙汁杜松子酒从来没有这么好喝过。\""
+		"drink_message": "\"橙汁杜松子酒从来没有这么好喝过\""
 	},
 	{
 		"name": ["Apple Gin With Tonic", "Apple Gin And Tonic", "Apple Gin-Tonic", "Apple Tonic", "Apple-Grape Gin With Tonic", "Apple-Grape Gin And Tonic", "Apple-Grape Gin-Tonic", "Apple-Grape Tonic", "Grape-Apple Gin With Tonic", "Grape-Apple Gin And Tonic", "Grape-Apple Gin-Tonic", "Grape-Apple Tonic", "Grape Gin With Tonic", "Grape Gin And Tonic", "Grape Gin-Tonic", "Grape Tonic"],
@@ -2814,7 +2814,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"苹果杜松子酒从来没有这么好喝过。\""
+		"drink_message": "\"苹果杜松子酒从来没有这么好喝过\""
 	},
 	{
 		"name": ["Grapefruit Gin With Tonic", "Grapefruit Gin And Tonic", "Grapefruit Gin-Tonic", "Grapefruit Tonic"],
@@ -2822,7 +2822,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"杜松子酒从来没有这么好喝过.\""
+		"drink_message": "\"杜松子酒从来没有这么好喝过\""
 	},
 	{
 		"name": ["Lemon Gin With Tonic", "Lemon Gin And Tonic", "Lemon Gin-Tonic", "Lemon Tonic"],
@@ -2830,7 +2830,7 @@
 		"alpha": 0.2,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"杜松子酒从来没有这么好喝过.\""
+		"drink_message": "\"杜松子酒从来没有这么好喝过\""
 	},
 	{
 		"name": ["Alcohol Free Vodka", "Alcohol-free Vodka", "Non-alcoholig Vodka", "Non Alcoholig Vodka"],
@@ -2877,7 +2877,7 @@
 		"color": [123, 193, 595],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
-		"refuse_message": "\"这液体很奇怪。\""
+		"refuse_message": "\"这液体很奇怪\""
 	},
 	{
 		"name": ["SCP-1878-2", "1878-2"],
@@ -2899,11 +2899,11 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "你感到肉桂卡在了气管里，咳嗽时把它咳了出来。",
+		"drink_message": "你感到肉桂卡在了气管里，咳嗽时把它咳了出来",
 		"stomachache": true,
 		"blur": 10.0,
 		"damage": 5.0,
-		"death_message": "Subject D-9341 was found dead inside of Site-[DATA REDACTED]. Wind pipe was drenched in cinnamon.",
+		"death_message": "对象D-9341的尸体在Site-[数据删除]被发现。",
 		"death_timer": 10.0
 	},
 	{
@@ -2912,7 +2912,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "\"这液体味道糟糕且非常苦涩。\"",
+		"drink_message": "\"这液体味道糟糕且非常苦涩\"",
 		"blur": 50.0
 	},
 	{
@@ -2928,7 +2928,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"这液体尝起来像人血。\""
+		"drink_message": "\"这液体尝起来像人血\""
 	},
 	{
 		"name": ["SCP-1416-2", "1416-2"],
@@ -2943,7 +2943,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "你感觉好多了。",
+		"drink_message": "你感觉好多了",
 		"blur": 10.0
 	},
 	{
@@ -2960,7 +2960,7 @@
 		"alpha": 0.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"death_message": "九尾狐发现实验对象D-9341在[数据删除]处失去意识。六只SCP-1610-2实例和实验对象D-9341均被终结。",
+		"death_message": "九尾狐在[数据删除]发现失去意识的对象D-9341。六只SCP-1610-2实例和对象D-9341均被击毙。",
 		"death_timer": 0.0
 	},
 	{
@@ -2969,7 +2969,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "这种液体让你的喉咙感到清爽。"
+		"drink_message": "这种液体让你的喉咙感到清爽"
 	},
 	{
 		"name": ["Alcohol Hand Gel", "Dishwashing Detergent", "Dish Washing Detergent", "Gel For Washing Dishes"],
@@ -3007,7 +3007,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"这饮料尝起来像标准的黑拉格啤酒。\""
+		"drink_message": "\"这饮料尝起来像标准的黑拉格啤酒\""
 	},
 	{
 		"name": ["Cola With Vodka", "Cola And Vodka", "Coca Cola With Vodka", "Coca-cola With Vodka", "Pepsi With Vodka", "Pepsi Cola With Vodka", "Pepsi-cola With Vodka"],
@@ -3023,7 +3023,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"这液体尝起来像血、尿和肺。\"",
+		"drink_message": "\"这液体尝起来像血、尿和肺\"",
 		"blur": 10.0
 	},
 	{
@@ -3063,7 +3063,7 @@
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"嘿！我在俄罗斯喝过这种饮料。\""
+		"drink_message": "\"嘿！我在俄罗斯喝过这种饮料\""
 	},
 	{
 		"name": ["Apple Braga", "Apple Brew Drink", "Apple Brewing Drink", "Pear Braga", "Grape Braga", "Grape-Apple Braga", "Apple-Grape Braga", "Pear Brew Drink", "Grape Brew Drink", "Grape-Apple Brew Drink", "Apple-Grape Brew Drink", "Pear Brewing Drink", "Grape Brewing Drink", "Grape-Apple Brewing Drink", "Apple-Grape Brewing Drink", "Pear-Grape Braga", "Pear-Grape Brew Drink", "Pear-Grape Brewing Drink", "Grape-Pear Brewing Drink", "Grape-Pear Brew Drink", "Grape-Pear Braga"],
@@ -3110,7 +3110,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"death_message": "发现D-9341号实验对象死亡，死因为心脏病发作。",
+		"death_message": "发现D-9341的尸体，死因为心脏病发作。",
 		"death_timer": 0.0
 	},
 	{
@@ -3156,7 +3156,7 @@
 		"color": [250, 200, 15],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
-		"refuse_message": "\"我才没傻到去喝胶水。\""
+		"refuse_message": "\"我才没傻到去喝胶水\""
 	},
 	{
 		"name": ["Chicory", "Coffee Drink"],
@@ -3164,7 +3164,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "这饮料尝起来像菊苣。",
+		"drink_message": "这饮料尝起来像菊苣",
 		"stamina_effect": 0.8,
 		"stamina_timer": 30.0,
 		"blur": 2.0
@@ -3191,7 +3191,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"death_message": "在[数据删除]区域发现了D-9341号实验对象。该实验对象在尝试摄入雷斯顿埃博拉病毒（Ebola）时死亡。",
+		"death_message": "在[数据删除]区域发现了D-9341。该实验对象在尝试摄入雷斯顿埃博拉病毒时死亡。",
 		"death_timer": 0.0
 	},
 	{
@@ -3200,7 +3200,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "你感到体内被挠痒痒。"
+		"drink_message": "你感到体内在被挠痒痒"
 	},
 	{
 		"name": ["Class-A Amnesiac", "Class-B Amnesiac", "Class-C Amnesiac", "Class-D Amnesiac", "Class-E Amnesiac", "Class-F Amnesiac", "Class-Omega Amnesiac", "Class-O Amnesiac"],
@@ -3209,7 +3209,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
 		"blur": 5.0,
-		"death_message": "使用者D-9341在[数据删除]时被发现失去知觉。已终止",
+		"death_message": "失去知觉的D-9341在[数据删除]被发现。已击毙。",
 		"death_timer": 0.0
 	},
 	{
@@ -3218,7 +3218,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\1162_ARC\\NostalgiaCancer3.ogg",
-		"drink_message": "\"我的名字是本杰明·奥利弗·沃克。职业是前科学家。我的权限等级是4级。但现在我是D级人员。\"",
+		"drink_message": "\"我的名字是本杰明·奥利弗·沃克。前职业是科学家。我的权限等级是4级，但现在我是D级人员。\"",
 		"blur": 5.0
 	},
 	{
@@ -3258,7 +3258,7 @@
 		"alpha": 0.7,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ew1.ogg",
-		"drink_message": "\"这液体尝起来像鲑鱼的卵。\""
+		"drink_message": "\"这液体尝起来像鲑鱼的卵\""
 	},
 	{
 		"name": ["Hunger Drink", "Hunger-Drink", "Hunger-liquid", "Hunger Liquid", "Hunger-food", "Hunger Food"],
@@ -3266,7 +3266,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "你感觉胃里火辣辣的疼。你的肚子是空的",
+		"drink_message": "你感觉胃里火辣辣的疼，你的肚子是空的",
 		"stomachache": true,
 		"stamina_effect": 1.5,
 		"blink_effect": 1.5,
@@ -3280,7 +3280,7 @@
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
-		"drink_message": "液体在你的喉咙里灼烧着。",
+		"drink_message": "液体在你的喉咙里灼烧着",
 		"stomachache": true,
 		"blur": 100.0,
 		"vomit": 20.0
@@ -3301,7 +3301,7 @@
 		"color": [120, 60, 0],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
-		"refuse_message": "\"这是什么鬼便便?!\""
+		"refuse_message": "\"这是什么鬼便便？！\""
 	},
 	{
 		"name": ["Iodine", "Luhol"],
@@ -3316,7 +3316,7 @@
 		"alpha": 0.9,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"这种液体尝起来像他们的血液.\""
+		"drink_message": "\"这种液体尝起来像他们的血\""
 	},
 	{
 		"name": ["SCP-1664", "1664"],
@@ -3325,7 +3325,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
 		"blur": 20.0,
-		"death_message": "九尾狐在[数据删除]处发现了SCP-1664-[数据删除]。实验对象已被终结。",
+		"death_message": "九尾狐在[数据删除]处发现了SCP-1664-[数据删除]。对象已被击毙。",
 		"death_timer": 0.0
 	},
 	{
@@ -3341,7 +3341,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这饮料尝起来像黑咖啡。\""
+		"drink_message": "\"这饮料尝起来像黑咖啡\""
 	},
 	{
 		"name": ["Pertinent Medical Knowledge", "Medical Knowledge"],
@@ -3407,7 +3407,7 @@
 		"alpha": 0.8,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"又冷又甜。\""
+		"drink_message": "\"又冷又甜\""
 	},
 	{
 		"name": ["Super Energy Drink", "Super ES", "Super Euroshopper", "Super Euroshopper Energy Drink", "Super Red Bull Energy Drink", "Super Jaguar Energy Drink", "Super Adrenalin Rush Energy Drink"],
@@ -3415,7 +3415,7 @@
 		"alpha": 0.5,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"这饮料尝起来像一杯非常美味的普通超级能量饮料。\"",
+		"drink_message": "\"这饮料尝起来像一杯非常美味的超级能量饮料\"",
 		"stamina_effect": 1.2,
 		"stamina_timer": 400.0
 	},
@@ -3483,7 +3483,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Burn.ogg",
 		"blur": 10.0,
-		"death_message": "在[数据删除]逃脱设施后被发现。[数据删除]被归类为SCP-682-1。",
+		"death_message": "[数据删除]在[数据删除]逃脱设施后被发现。[数据删除]被归类为SCP-682-1。",
 		"death_timer": 0.0
 	},
 	{
@@ -3494,7 +3494,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Room\\Tesla\\Shock.ogg",
 		"blur": 10.0,
-		"death_message": "在[数据删除]区域发现了D-9431号实验对象。该实验对象遭受了类似于基金会级别特斯拉门的电压电击。",
+		"death_message": "在[数据删除]区域发现了D-9431。该实验对象遭受了类似于特斯拉门的电击。",
 		"death_timer": 0.0
 	},
 	{
@@ -3513,8 +3513,8 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "你感觉积木块卡在了你的气管里。",
-		"death_message": "九尾狐发现实验对象D-9341死于[数据删除]。测试表明，一个乐高积木块卡在了他的气道里，导致了他的死亡。",
+		"drink_message": "你感觉积木块卡在了你的气管里",
+		"death_message": "九尾狐发现对象D-9341死于[数据删除]。分析表明，一个乐高积木块卡在了他的气道里，导致了他的死亡。",
 		"death_timer": 0.0
 	},
 	{
@@ -3523,7 +3523,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\Ending\\Bell0.ogg",
-		"drink_message": "你听到脑海中传来一阵铃声。"
+		"drink_message": "你听到脑海中传来一阵铃声"
 	},
 	{
 		"name": ["Sugar", "Aspartame", "Monk Fruit", "Xylitol", "Erythritol"],
@@ -3531,14 +3531,14 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
-		"drink_message": "\"呃，这太糟糕了。\""
+		"drink_message": "\"呃，这太糟糕了\""
 	},
 	{
 		"name": ["Sharp Water", "Knife", "Sharp", "Pointy", "Sharp Liquid"],
 		"color": [100, 100, 100],
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
-		"drink_message": "You feel the knife cutting your throat open.",
+		"drink_message": "你感觉一把刀切开了你的气管",
 		"blur": 100.0,
 		"death_message": "九尾狐发现实验对象D-9341喉咙里卡着一把刀。死因不明。",
 		"death_timer": 0.0
@@ -3549,7 +3549,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"这非常好。\""
+		"drink_message": "\"这非常好\""
 	},
 	{
 		"name": ["Radiation", "Deadly"],
@@ -3559,7 +3559,7 @@
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Cough.ogg",
 		"stomachache": true,
-		"death_message": "九尾狐发现实验对象D-9341死于一滩放射性液体旁。毫无疑问，死因与SCP-294有关。",
+		"death_message": "九尾狐发现对象D-9341死于一滩放射性液体旁。毫无疑问，死因与SCP-294有关。",
 		"death_timer": 300.0
 	},
 	{
@@ -3568,7 +3568,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense1.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "\"这饮料非常好。\""
+		"drink_message": "\"这饮料非常好\""
 	},
 	{
 		"name": ["Oatmeal", "Porridge", "Qruel", "Healthy"],
@@ -3576,7 +3576,7 @@
 		"alpha": 1.0,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Slurp.ogg",
-		"drink_message": "\"普通的燕麦粥。\""
+		"drink_message": "\"普通的燕麦粥\""
 	},
 	{
 		"name": ["SCP-066", "066", "Erics Toy", "Eric Toy", "Beethoven", "Symphony No 2", "Beethovens second symphony", "Earrape", "Ear Rape", "EARRAEP", "EAR RAEP", "Loud Music", "Loud Volume", "Loud", "Loudness"],
@@ -3595,7 +3595,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense2.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Spit.ogg",
-		"drink_message": "\"这饮料味道糟糕透了……这到底是什么东西？\"",
+		"drink_message": "\"这饮料味道糟糕透了...这到底是什么东西？\"",
 		"blur": 90.0,
 		"mutation": true
 	},
@@ -3605,7 +3605,6 @@
 		"alpha": 0.1,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense0.ogg",
 		"refuse_message": "\"等一会！别！你准备喝下去了吗\""
- 
 	},
 	{
 		"name": ["Spamton", "Big Shot"],
@@ -3614,7 +3613,7 @@
 		"glow": true,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "现在是你成为大人物的机会！",
+		"drink_message": "是时候成为“大人物”了！",
 		"stamina_effect": 1.2,
 		"stamina_timer": 300.0,
 		"blur": 20.0,
@@ -3627,7 +3626,7 @@
 		"alpha": 0.1,
 		"dispense_sound": "SFX\\SCP\\294\\Dispense3.ogg",
 		"drink_sound": "SFX\\SCP\\294\\Ahh.ogg",
-		"drink_message": "你不再感到孤独。",
+		"drink_message": "你不再感到孤独",
 		"blur": 20.0
 	}
   ]
