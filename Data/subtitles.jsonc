@@ -1589,6 +1589,33 @@
 			"color": "announcement"
 		}
 	],
+                "SFX\\Character\\MTF\\AnnouncLost.ogg": [
+		{
+			"text": "所有人员注意。",
+			"delay": 2.14,
+			"color": "announcement"
+		},
+		{
+			"text": "机动特遣队九尾狐已被设施内失控的SCP击杀。",
+			"delay": 4.12,
+			"color": "announcement"
+		},
+		{
+			"text": "我们已联系外部所有可部署的应急战术响应小组进行干预，并处理基金会内的所有威胁。",
+			"delay": 10.21,
+			"color": "announcement"
+		},
+                                { 
+                                                "text": "人员需继续遵守安全流程并进入疏散避难所寻找掩护，直至进一步通知。",
+			"delay": 19.27,
+			"color": "announcement"
+                                },
+                                {
+                                                 "text": "所有入侵者和游荡的D级人员将立即处决。",
+			"delay": 27.13,
+			"color": "announcement"
+                                }
+	],
 	"SFX\\Character\\MTF\\AnnouncAfter0.ogg": [
 		{
 			"text": "再次建议所有幸存人员：不要试图靠近出口。",
